@@ -91,11 +91,13 @@ a {
 h2 {
   font-size: 2rem;
   margin: 10px 0;
+  text-align: center;
 }
 
 h3 {
   margin: 0;
   font-size: 1.5rem;
+  text-align: start;
 }
 
 /*********************************************************/
@@ -245,6 +247,7 @@ header {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 
 @keyframes scrollol {
@@ -611,9 +614,16 @@ footer p {
     height: 40px;
   }
 
-  .gallerie::after {
-    content: none;
+  .gallerie {
+    gap: 10px;
   }
+  .gallerie figure{
+    height: auto;
+    width: 40%;
+  }
+  /* .gallerie::after {
+    content: none;
+  } */
 
   .imageViewer img {
     max-width: 90%;
@@ -646,5 +656,16 @@ footer p {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .contenuSectionApropos div:first-child {
+    width: 200px;
+    height: 200px;
+  }
 }
