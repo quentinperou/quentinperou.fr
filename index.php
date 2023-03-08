@@ -73,8 +73,7 @@ session_start();
         </a>
         <div class="fondAcceuil">
             <img src="images/header-accueil.jpg" alt="">
-            <video preload="none" muted loop src="images/showreel-home-website.webm" type="video/webm"></video>
-            <!-- <iframe src="https://www.youtube-nocookie.com/embed/mteXXkZctvc?vq=hd1080&autoplay=1&loop=1&iv_load_policy=3&fs=0&color=white&controls=0&disablekb=1&playlist=mteXXkZctvc&mute=1" title="SHOWREEL 2023 - Quentin Pérou" frameborder="0"></iframe> -->
+            <video preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video>
         </div>
         <script>
             var video = document.querySelector('video');
@@ -85,11 +84,9 @@ session_start();
                 })(navigator.userAgent || navigator.vendor || window.opera);
                 return check;
             };
-            console.log("mobile device ",mobileAndTabletCheck());
-            if (mobileAndTabletCheck()== false) {
+            console.log("mobile device ", mobileAndTabletCheck());
+            if (mobileAndTabletCheck() == false) {
                 video.play();
-            }else{
-                video.un;
             }
         </script>
     </section>
