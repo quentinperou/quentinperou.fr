@@ -25,10 +25,7 @@
 
                 if (this.getAttribute("href")[0] == '#') {
                     elem.preventDefault();
-                    let url = window.location.href.split('/');
-                    console.log(window.location.pathname, url);
-                    console.log(url[url.length - 1])
-                    if (this.getAttribute("href") == '#' && url[url.length - 1] == "")
+                    if (this.getAttribute("href") == '#')
                         document.querySelector("body").scrollIntoView();
                     else
                         document.querySelector(`${this.getAttribute("href")}`).scrollIntoView();
