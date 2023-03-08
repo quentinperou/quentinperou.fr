@@ -55,6 +55,33 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector('.nav_next').style.display = "block";
     }
 
+    /******** GESTION DU SWIPE ********/
 
+    let touchstartX = 0
+    let touchendX = 0
+
+    function checkDirection() {
+        if (Math.abs(touchstartX - touchendX) > 50) {
+            if (touchendX < touchstartX) {
+                // console.log('swiped left!');
+                if (currentImage < images.length - 1)
+                    loadImage(currentImage + 1)
+            }
+            if (touchendX > touchstartX) {
+                // console.log('swiped right!');
+                if (currentImage > 0)
+                    loadImage(currentImage - 1)
+            }
+        }
+    }
+
+    document.querySelector('.imageViewer').addEventListener('touchstart', e => {
+        touchstartX = e.changedTouches[0].screenX
+    })
+
+    document.querySelector('.imageViewer').addEventListener('touchend', e => {
+        touchendX = e.changedTouches[0].screenX
+        checkDirection()
+    })
 
 });
