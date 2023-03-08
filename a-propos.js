@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 clearInterval(intervalText);
                 startCursorBlink();
                 setTimeout(() => {
-                    console.log("hop");
                     if (curentTxt < txt.length - 1)
                         curentTxt++;
                     else
