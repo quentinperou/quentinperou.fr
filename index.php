@@ -73,7 +73,7 @@ session_start();
         </a>
         <div class="fondAcceuil">
             <img src="images/header-accueil.jpg" alt="">
-            <!-- <video preload="none" muted loop src="images/showreel-home-website.webm" type="video/webm"></video> -->
+            <video preload="none" muted loop src="images/showreel-home-website.webm" type="video/webm"></video>
             <!-- <iframe src="https://www.youtube-nocookie.com/embed/mteXXkZctvc?vq=hd1080&autoplay=1&loop=1&iv_load_policy=3&fs=0&color=white&controls=0&disablekb=1&playlist=mteXXkZctvc&mute=1" title="SHOWREEL 2023 - Quentin Pérou" frameborder="0"></iframe> -->
         </div>
         <script>
