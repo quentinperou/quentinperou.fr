@@ -12,7 +12,7 @@ html {
 }
 
 :root {
-  --largeur_page: 80vw;
+  --largeur_page: 70vw;
   --color-gray-1: #252627;
   --color-gray-1-hover: #3b3b3b;
 }
@@ -65,12 +65,27 @@ a {
   background-color: var(--color-gray-1);
   color: white;
   padding: 10px 25px;
-  margin: 10px 0 0 0;
+  margin: 10px 10px 0 0;
   display: inline-block;
+}
+.bouton:last-child {
+  margin-right: 0;
 }
 
 .bouton:hover {
   background-color: var(--color-gray-1-hover);
+}
+
+.bouton.invert {
+  background-color: inherit;
+  outline: var(--color-gray-1) solid 2px;
+  outline-offset: -2px;
+  color: var(--color-gray-1);
+  transition: background-color 150ms ease-in-out;
+}
+.bouton.invert:hover {
+  background-color: var(--color-gray-1);
+  color: white;
 }
 
 h2 {
@@ -189,28 +204,38 @@ header {
   height: 100%;
   background-color: #3b3b3b;
   z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+.fondAcceuil img {
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 #accueil div:first-child {
-  width: var(--largeur_page);
+  /* width: var(--largeur_page);
   height: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-bottom: 100px;
+  padding-bottom: 100px; */
   z-index: 2;
+
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
 }
 
 #accueil p {
   color: white;
   text-align: end;
   margin: 20px 0;
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 #accueil .titreAccueil {
-  font-size: 150px;
+  font-size: 7rem;
   font-family: "Amatic SC", cursive;
 }
 
@@ -262,7 +287,7 @@ main section {
 }
 
 main section:first-child {
-  padding-top: 90px;
+  padding-top: 95px;
 }
 
 /*********************************************************/
@@ -270,21 +295,26 @@ main section:first-child {
 /*********************************************************/
 .projet {
   display: flex;
-  margin: 40px 0;
+  margin: 50px 0;
 }
-.projet:nth-child(2) {
+.projet:nth-child(even) {
   flex-direction: row-reverse;
 }
 
 .projet div {
   width: 50%;
   text-align: justify;
+  /* padding: 0 10px 0 0; */
 }
 .projet div:last-child {
   padding: 30px 0 30px 30px;
 }
 
-.projet:nth-child(2) div:last-child {
+/* .projet:nth-child(even) div {
+  padding: 0 0 0 10px;
+} */
+
+.projet:nth-child(even) div:last-child {
   padding: 30px 30px 30px 0;
 }
 
@@ -336,7 +366,7 @@ main section:first-child {
   flex-grow: 999;
 }
 
-figcaption::first-letter{
+figcaption::first-letter {
   text-transform: uppercase;
 }
 
@@ -353,9 +383,20 @@ figcaption::first-letter{
   align-items: center;
   flex-direction: column;
   user-select: none;
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
 }
 .imageViewer.visible {
   display: flex;
+  animation: fadeIn 150ms ease-in-out forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .imageViewer img {
@@ -413,6 +454,7 @@ figcaption::first-letter{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 .contenuSectionApropos > div {
@@ -496,23 +538,23 @@ footer p {
 /*********************************************************/
 @media screen and (min-width: 2000px) {
   :root {
-    --largeur_page: 70vw;
+    --largeur_page: 60vw;
   }
 }
 
 @media screen and (max-width: 1450px) {
+  :root {
+    --largeur_page: 80vw;
+  }
 }
 
 @media screen and (max-width: 1250px) {
-}
-
-@media screen and (max-width: 1000px) {
   :root {
     --largeur_page: 95vw;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .menu {
     justify-content: center;
     align-items: center;
@@ -537,6 +579,13 @@ footer p {
 
   .burgerMenu {
     display: inline-block;
+  }
+
+  #accueil p {
+    font-size: 1.5rem;
+  }
+  #accueil .titreAccueil {
+    font-size: 5rem;
   }
 
   .projet {
@@ -566,6 +615,16 @@ footer p {
     content: none;
   }
 
+  .imageViewer img {
+    max-width: 90%;
+    max-height: 70%;
+  }
+  .imageViewer figcaption {
+    margin-top: 10px;
+    max-width: 90%;
+    margin-bottom: 30px;
+  }
+
   .gallerie_nav {
     top: unset;
     bottom: 5%;
@@ -578,19 +637,12 @@ footer p {
   }
 }
 
-@media screen and (max-width: 700px) {
-  /* #accueil p {
-    padding: 0 10px 50px 0;
-    font-size: 100px;
-  } */
-}
-
-@media screen and (max-width: 717px) {
-}
-
 @media screen and (max-width: 500px) {
   #accueil {
     background-position: 35% 50%;
+  }
+  .fondAcceuil img {
+    object-position: 35% 50%;
   }
 }
 

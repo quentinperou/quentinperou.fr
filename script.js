@@ -7,6 +7,7 @@
             evt.preventDefault();
         });
 
+        /********** GESTION DU MENU BURGER **********/
         const menu = document.querySelector(".menu");
         const burgerMenu = document.querySelector(".burgerMenu");
 
@@ -14,6 +15,8 @@
             menu.classList.toggle("visible");
             this.classList.toggle("change");
         });
+
+        // document.getElementById('photoProfil').src = `images/photo_profil-${Math.floor(Math.random() * 4) + 1}-c.jpg`
 
         // document.querySelectorAll(".menuElement").forEach(function (element) {
         //     element.addEventListener("click", function (elem) {
