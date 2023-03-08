@@ -3,9 +3,9 @@
     document.addEventListener("DOMContentLoaded", function () {
 
         /********** BLOQUE LE CLIC DROIT **********/
-        document.addEventListener("contextmenu", function (evt) {
-            evt.preventDefault();
-        });
+        // document.addEventListener("contextmenu", function (evt) {
+        //     evt.preventDefault();
+        // });
 
         /********** GESTION DU MENU BURGER **********/
         const menu = document.querySelector(".menu");
