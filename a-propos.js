@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const txt = [`, c'est qui ?`, `, il fait quoi ?`];
+    const txt = [`, qui est-ce ?`, `, que fait-il ?`];
     const cursor = "|";
 
     const titreElm = document.querySelector(".contenuSectionApropos div:nth-child(2) h3");

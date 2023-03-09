@@ -653,14 +653,22 @@ footer p {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 430px) {
+  :root {
+    --largeur_page: 90vw;
+  }
+  #a-propos{
+    width: 100%;
+  }
+
   h2 {
     font-size: 1.6rem;
   }
   h3 {
     font-size: 1.3rem;
   }
-
+}
+@media screen and (max-width: 350px) {
   .contenuSectionApropos div:first-child {
     width: 200px;
     height: 200px;

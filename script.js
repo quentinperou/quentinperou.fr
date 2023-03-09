@@ -40,3 +40,5 @@
 
     });
 }());
+
+console.log("%cHello !", "background: #222; color: #FFF; font-size: 20px;");
