@@ -88,6 +88,12 @@ session_start();
             if (mobileAndTabletCheck() == false) {
                 video.play();
             }
+            //zoom dans la vidéo au scroll
+            window.addEventListener('scroll', function() {
+                var scroll = window.pageYOffset;
+                var video = document.querySelector('.fondAcceuil');
+                video.style.transform = 'scale(' + (1 + scroll / 1000) + ')';
+            });
         </script>
     </section>
 
