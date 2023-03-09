@@ -6,10 +6,10 @@ Options -Indexes
 
 #Redirect http to https
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+# RewriteCond %{HTTPS} off
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
 ###Redirige les requetes vers les fichiers correspondants
-# RewriteRule photo$ photo.php
+# RewriteRule photographie$ photo.php
 # RewriteRule video$ video.php
 RewriteRule mentions-legales$ mentions-legales.php
