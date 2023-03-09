@@ -91,9 +91,15 @@ session_start();
             //zoom dans la vidéo au scroll
             window.addEventListener('scroll', function() {
                 var scroll = window.pageYOffset;
+                // console.log("scroll:",scroll);
                 var video = document.querySelector('.fondAcceuil');
-                video.style.transform = 'scale(' + (1 + scroll / 1000) + ')';
+                video.style.transform = 'scale(' + map_range(scroll, 0, window.innerHeight, 1, 1.5) + ')';
+                // console.log("map",map_range(scroll, 0, window.innerHeight, 1, 1.5));
             });
+            // console.log("hauteur viewport",window.innerHeight);
+            function map_range(value, low1, high1, low2, high2) {
+                return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
+            }
         </script>
     </section>
 
