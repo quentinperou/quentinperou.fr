@@ -73,7 +73,7 @@ session_start();
         </a>
         <div class="fondAcceuil">
             <img src="images/header-accueil.jpg" alt="">
-            <video preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video>
+            <video id="videoH" preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video>
         </div>
         <script>
             var video = document.querySelector('video');
@@ -111,18 +111,6 @@ session_start();
                         <!-- <a href="./video/" class="bouton invert">Mes autres réalisations video</a> -->
                     </div>
                 </div>
-
-                <!-- <div class="projet">
-                    <div>
-                        <img src="images/header-accueil.jpg" alt="">
-                    </div>
-                    <div>
-                        <h3>...</h3>
-                        <p>Un jour on racontera cette histoire... <br> En vrai je sais pas quoi mettre ici ^^</p>
-                        <a href="#" class="bouton" target="_blank">??</a>
-                        <a href="./video/" class="bouton invert">Mes photographies</a>
-                    </div>
-                </div> -->
 
             </div>
             <div style="margin-bottom: 40px; text-align: center;">
@@ -201,7 +189,7 @@ session_start();
                 </svg>
             </div>
         </a>
-        <p>© 2023 Quentin Pérou </p>
+        <p>© 2023 Quentin Pérou <!-- | <a href="./mentions-legales">Mentions Légales</a> --></p>
     </footer>
 
 </body>
