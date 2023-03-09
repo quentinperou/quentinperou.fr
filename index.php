@@ -74,9 +74,9 @@ session_start();
         <div class="fondAcceuil">
             <img src="images/header-accueil.jpg" alt="">
             <video id="videoH" preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video>
+            <video id="videoV" preload="none" muted loop src="showreel-home-website-vertical.webm" type="video/webm"></video>
         </div>
         <script>
-            var video = document.querySelector('video');
             window.mobileAndTabletCheck = function() {
                 let check = false;
                 (function(a) {
@@ -85,18 +85,18 @@ session_start();
                 return check;
             };
             console.log("mobile device ", mobileAndTabletCheck());
-            if (mobileAndTabletCheck() == false) {
-                video.play();
-            }
+            if (mobileAndTabletCheck() == false)
+                document.querySelector('#videoH').play();
+            else
+                document.querySelector('#videoV').play();
+
             //zoom dans la vidéo au scroll
             window.addEventListener('scroll', function() {
                 var scroll = window.pageYOffset;
-                // console.log("scroll:",scroll);
                 var video = document.querySelector('.fondAcceuil');
-                video.style.transform = 'scale(' + map_range(scroll, 0, window.innerHeight, 1, 1.5) + ')';
-                // console.log("map",map_range(scroll, 0, window.innerHeight, 1, 1.5));
+                video.style.transform = 'scale(' + map_range(scroll, 0, window.innerHeight, 1, 1.6) + ')';
             });
-            // console.log("hauteur viewport",window.innerHeight);
+
             function map_range(value, low1, high1, low2, high2) {
                 return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
             }
