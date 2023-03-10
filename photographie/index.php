@@ -69,7 +69,6 @@ session_start();
                 $ext = '.webp';
                 $pattern = '/^([0-9]*||[0-9]*\.[0-9]*)_/';
                 $dirArray = scandir($dir, SCANDIR_SORT_DESCENDING);
-                // $indexCount = count($dirArray);
 
                 natsort($dirArray);
                 // $dirArray = array_reverse($dirArray);
@@ -86,10 +85,6 @@ session_start();
                 }
                 ?>
 
-                <!-- <figure>
-                    <img src="../photos/image1.jpg" alt="">
-                    <figcaption>Titre</figcaption>
-                </figure> -->
             </div>
             <div class="imageViewer">
                 <svg class="close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white">

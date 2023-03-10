@@ -167,18 +167,6 @@ session_start();
                     </div>
                 </div>
 
-
-                <!-- <div class="projet">
-                    <div>
-                        <img src="./images/" alt="">
-                    </div>
-                    <div>
-                        <h3>Mon projet</h3>
-                        <p>La desciption</p>
-                        <a href="#" class="bouton" target="_blank">Voir le projet</a>
-                    </div>
-                </div> -->
-
             </div>
         </section>
 
