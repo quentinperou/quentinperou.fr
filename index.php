@@ -74,7 +74,6 @@ session_start();
         <div class="fondAcceuil">
             <img src="images/header-accueil.jpg" alt="">
             <video id="videoH" preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video>
-            <video id="videoV" preload="none" muted loop src="showreel-home-website-vertical.webm" type="video/webm"></video>
         </div>
         <script>
             window.mobileAndTabletCheck = function() {
@@ -87,8 +86,6 @@ session_start();
             console.log("mobile device ", mobileAndTabletCheck());
             if (mobileAndTabletCheck() == false)
                 document.querySelector('#videoH').play();
-            else
-                document.querySelector('#videoV').play();
 
             //zoom dans la vidéo au scroll
             window.addEventListener('scroll', function() {
