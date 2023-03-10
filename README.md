@@ -1,11 +1,14 @@
 # Portfolio 🇫🇷
 
-Code de mon portfolio :
-https://quentinperou.fr/
+Code de mon portfolio : https://quentinperou.fr/
 
 Version : mars 2023
 
 ![home page](apercu-portfolio-v2.jpg)
+
+<br>
+
+Développé en live sur Twitch : [twitch.tv/quentinperou](https://www.twitch.tv/quentinperou)
 
 <br>
 
