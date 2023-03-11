@@ -13,3 +13,5 @@ RewriteEngine On
 # RewriteRule photographie$ photo.php
 # RewriteRule video$ video.php
 RewriteRule mentions-legales$ mentions-legales.php
+RewriteRule legacy$ mentions-legales.php
+RewriteRule photo$ ./photographie
