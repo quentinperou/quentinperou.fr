@@ -293,7 +293,7 @@ main section:first-child {
 .contenuSectionProjets {
   width: 100%;
 }
-.projet figure{
+.projet figure {
   width: 50%;
   margin: 0;
 }
@@ -323,21 +323,26 @@ main section:first-child {
   padding: 30px 30px 30px 0;
 }
 
-
 /***************** PROJETS 3D *****************/
-.projet3d{
+.projet3d {
   display: flex;
   flex-direction: column;
+  padding: 20px 0;
 }
 
-.projet3d .gallerie{
-  flex-wrap: inherit;
+.projet3d .gallerie {
+  /* flex-wrap: inherit; */
+  margin-top: 0;
 }
 
 .projet3d .gallerie::after {
   content: inherit;
 }
 
+.projet3d .gallerie video {
+  object-fit: cover;
+  cursor: inherit;
+}
 
 /*********************************************************/
 /*                       GALLERIE                        */
@@ -349,12 +354,14 @@ main section:first-child {
   gap: 20px;
 }
 
-.gallerie figure {
+.gallerie figure,
+.gallerie video {
   height: 350px;
   position: relative;
   flex-grow: 1;
   margin: 0;
   cursor: pointer;
+  width: 30%;
 }
 
 .gallerie figure figcaption {
@@ -663,6 +670,10 @@ footer p {
   }
   .nav_next {
     right: 20%;
+  }
+
+  .projet3d .gallerie video {
+    width: 100%;
   }
 }
 

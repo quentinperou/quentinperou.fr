@@ -66,6 +66,31 @@ session_start();
             <div class="contenuSectionProjets">
 
                 <div class="projet3d">
+                    <div>
+                        <h3>TSI Studio</h3>
+                        <p>L'objectif de ce projet était de créer un studio avec un maximum de références à ma propotion de LP TSI.</p>
+                    </div>
+                    <div class="gallerie">
+                        <figure>
+                            <img src="./images/tsi-studio (2).png" alt="">
+                            <figcaption>Un petit gros plan sur un détail</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/tsi-studio (1).png" alt="">
+                            <figcaption>La 3D dans les textures</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/tsi-studio (3).png" alt="">
+                            <figcaption>Rendu finale</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="projet3d">
+                    <div>
+                        <h3>Ballons coeur</h3>
+                        <p>Même si on était en novembre j'ai souhaité faire une modélisation 3D type St-Valentin. </p>
+                    </div>
                     <div class="gallerie">
                         <figure>
                             <img src="./images/Love-Balloon1.png" alt="">
@@ -75,33 +100,32 @@ session_start();
                             <img src="./images/Love-Balloon2.png" alt="">
                             <figcaption>test</figcaption>
                         </figure>
-                        <figure>
-                            <img src="./images/chocolat-chaud7.png" alt="">
-                            <figcaption>p'tit choco</figcaption>
-                        </figure>
-                    </div>
-                    <div>
-                        <h3>3d 1</h3>
-                        <p>blablablabla blablablabla blabla</p>
+                        <video controls autoplay muted loop src="./images/love-ballon-v1-evee_0001-0150.mp4"></video>
                     </div>
                 </div>
 
                 <div class="projet3d">
+                    <div>
+                        <h3>Emoji baleine</h3>
+                        <p></p>
+                    </div>
                     <div class="gallerie">
-                    <figure>
-                            <img src="./images/tsi-studio (2).png" alt="">
-                            <figcaption>vive les baleines</figcaption>
+                        <figure style="background-color: #163040;">
+                            <img src="./images/whale-emoji2-twitch.png" alt="">
+                            <figcaption>La Baleine au format PNG</figcaption>
                         </figure>
                         <figure>
-                            <img src="./images/tsi-studio (1).png" alt="">
-                            <figcaption>test</figcaption>
+                            <img src="./images/whale-TSI-BEACH-demo-print-3d0001-0120_Moment.jpg" alt="">
+                            <figcaption>Vue du dessus dans un décor</figcaption>
                         </figure>
-                    </div>
-                    <div>
-                        <h3>3d 2</h3>
-                        <p>blabla</p>
+                        <figure>
+                            <img src="./images/whale-TSI-BEACH-demo-print-3d_2.png" alt="">
+                            <figcaption>Mise en stituation dans un environement style futuriste.</figcaption>
+                        </figure>
+                        <video controls autoplay muted loop src="./images/whale-TSI-BEACH-demo-print-3d0001-0120.mp4"></video>
                     </div>
                 </div>
+
 
             </div>
 
