@@ -15,3 +15,7 @@ RewriteEngine On
 RewriteRule mentions-legales$ mentions-legales.php
 RewriteRule legacy$ mentions-legales.php
 RewriteRule photo$ ./photographie
+
+
+RewriteRule insta$ https://www.instagram.com/quentinperou/
+RewriteRule insta3d$ https://www.instagram.com/byquentin_/
