@@ -33,13 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
             
             if (index == 0) {
                 document.querySelector('.nav_back').style.display = "none";
-                return;
             } else
                 document.querySelector('.nav_back').style.display = "block";
 
             if (index == this.images.length - 1) {
                 document.querySelector('.nav_next').style.display = "none";
-                return;
             } else
                 document.querySelector('.nav_next').style.display = "block";
         };
