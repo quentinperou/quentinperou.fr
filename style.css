@@ -200,7 +200,7 @@ header {
   z-index: -1;
   height: calc(100vh - 80px);
 }
-.fondAcceuil>* {
+.fondAcceuil > * {
   object-fit: cover;
   object-position: 50% 50%;
   width: 100%;
@@ -290,6 +290,14 @@ main section:first-child {
 /*********************************************************/
 /*                        PROJETS                        */
 /*********************************************************/
+.contenuSectionProjets {
+  width: 100%;
+}
+.projet figure{
+  width: 50%;
+  margin: 0;
+}
+
 .projet {
   display: flex;
   margin: 50px 0;
@@ -313,6 +321,17 @@ main section:first-child {
 
 .projet:nth-child(even) div:last-child {
   padding: 30px 30px 30px 0;
+}
+
+
+/***************** PROJETS 3D *****************/
+.projet3d{
+  display: flex;
+  flex-direction: column;
+}
+
+.projet3d .gallerie{
+  flex-wrap: inherit;
 }
 
 /*********************************************************/
@@ -655,7 +674,7 @@ footer p {
   :root {
     --largeur_page: 90vw;
   }
-  #a-propos{
+  #a-propos {
     width: 100%;
   }
 
