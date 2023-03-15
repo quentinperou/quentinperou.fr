@@ -343,6 +343,9 @@ main section:first-child {
   object-fit: cover;
   cursor: inherit;
 }
+video:fullscreen{
+  object-fit: contain !important;
+}
 
 /*********************************************************/
 /*                       GALLERIE                        */

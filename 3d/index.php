@@ -66,21 +66,84 @@ session_start();
             <div class="contenuSectionProjets">
 
                 <div class="projet3d">
+                    <!-- <div>
+                        <h3>Diverses créations</h3>
+                        <p></p>
+                    </div> -->
+                    <div class="gallerie">
+                        <figure>
+                            <img src="./images/glass-of-ice-tea.webp" alt="">
+                            <figcaption>Verre d'ice-tea</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/chocolat-chaud7.webp" alt="">
+                            <figcaption>Tasse de chocolat chaud</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/palmier2.webp" alt="">
+                            <figcaption>Petits palmiers sur une plage</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/pot-plante9.webp" alt="">
+                            <figcaption>Vera l'aloe vera</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/cadeaux-noel3.webp" alt="">
+                            <figcaption>Cadeaux de noël</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/candy2.webp" alt="">
+                            <figcaption>Sucre d'orge</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/mini-monde-lowpoly3-psd.webp" alt="">
+                            <figcaption>Un mini monde</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/Pot-a-crayons-3D.webp" alt="">
+                            <figcaption>Le pot à crayon du reportage sur le métier d'opérateur XR</figcaption>
+                        </figure>
+                        <video controls autoplay muted loop src="./images/cut-loop.webm"></video>
+                        <figure>
+                            <img src="./images/metro.blend-eevee1.webp" alt="">
+                            <figcaption>Une gare de métro</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/neon.blend-eevee.webp" alt="">
+                            <figcaption>Une modélisation isue d'un totoriel que j'ai suivi afin d'apprendre les bases du logiciel.</figcaption>
+                        </figure>
+
+                        <figure style="width: 40%;">
+                            <img src="./images/Alain-le-plot2.webp" alt="">
+                            <figcaption>Alain le plot</figcaption>
+                        </figure>
+                        <figure style="width: 40%;">
+                            <img src="./images/ice-cream2.webp" alt="">
+                            <figcaption>Juste une glace</figcaption>
+                        </figure>
+                    </div>
+                    <div style="text-align: center; margin-top:20px;">
+                        <a href="https://instagram.com/byquentin_" class="bouton invert" target="_blank">Mon Instagram 3D</a>
+
+                    </div>
+                </div>
+
+                <div class="projet3d">
                     <div>
                         <h3>TSI Studio</h3>
                         <p>L'objectif de ce projet était de créer un studio avec un maximum de références à ma propotion de LP TSI.</p>
                     </div>
                     <div class="gallerie">
                         <figure>
-                            <img src="./images/tsi-studio (2).png" alt="">
+                            <img src="./images/tsi-studio2.webp" alt="">
                             <figcaption>Un petit gros plan sur un détail</figcaption>
                         </figure>
                         <figure>
-                            <img src="./images/tsi-studio (1).png" alt="">
+                            <img src="./images/tsi-studio1.webp" alt="">
                             <figcaption>La 3D dans les textures</figcaption>
                         </figure>
                         <figure>
-                            <img src="./images/tsi-studio (3).png" alt="">
+                            <img src="./images/tsi-studio3.webp" alt="">
                             <figcaption>Rendu finale</figcaption>
                         </figure>
                     </div>
@@ -88,41 +151,55 @@ session_start();
 
                 <div class="projet3d">
                     <div>
-                        <h3>Ballons coeur</h3>
+                        <h3>Ballons cœur</h3>
                         <p>Même si on était en novembre j'ai souhaité faire une modélisation 3D type St-Valentin. </p>
                     </div>
                     <div class="gallerie">
                         <figure>
-                            <img src="./images/Love-Balloon1.png" alt="">
+                            <img src="./images/Love-Balloon1.webp" alt="">
                             <figcaption>des ballons</figcaption>
                         </figure>
                         <figure>
-                            <img src="./images/Love-Balloon2.png" alt="">
+                            <img src="./images/Love-Balloon2.webp" alt="">
                             <figcaption>test</figcaption>
                         </figure>
-                        <video controls autoplay muted loop src="./images/love-ballon-v1-evee_0001-0150.mp4"></video>
+                        <video controls autoplay muted loop src="./images/love-ballon-v1-evee_0001-0150.webm"></video>
                     </div>
                 </div>
 
                 <div class="projet3d">
                     <div>
                         <h3>Emoji baleine</h3>
-                        <p></p>
+                        <p>Une blague partie trop loin...</p>
                     </div>
                     <div class="gallerie">
                         <figure style="background-color: #163040;">
-                            <img src="./images/whale-emoji2-twitch.png" alt="">
+                            <img src="./images/whale-emoji2-twitch.webp" alt="">
                             <figcaption>La Baleine au format PNG</figcaption>
                         </figure>
                         <figure>
-                            <img src="./images/whale-TSI-BEACH-demo-print-3d0001-0120_Moment.jpg" alt="">
+                            <img src="./images/whale-demo3.webp" alt="">
                             <figcaption>Vue du dessus dans un décor</figcaption>
                         </figure>
                         <figure>
-                            <img src="./images/whale-TSI-BEACH-demo-print-3d_2.png" alt="">
+                            <img src="./images/whale-demo2.webp" alt="">
                             <figcaption>Mise en stituation dans un environement style futuriste.</figcaption>
                         </figure>
-                        <video controls autoplay muted loop src="./images/whale-TSI-BEACH-demo-print-3d0001-0120.mp4"></video>
+                        <video controls autoplay muted loop  src="./images/whale-demo.webm"></video>
+                    </div>
+                </div>
+
+                <div class="projet3d">
+                    <div>
+                        <h3>Coucher de soleil</h3>
+                        <p>Afin d'aprendre les bases de Blender j'ai réalisé ce coucher de soleil sur l'océan.</p>
+                    </div>
+                    <div class="gallerie">
+                        <figure style="background-color: #163040;">
+                            <img src="./images/sunset.blend1.webp" alt="">
+                            <figcaption>Un couher de soleil sur l'océan</figcaption>
+                        </figure>
+                        <video controls autoplay muted loop src="./images/sunset.webm"></video>
                     </div>
                 </div>
 

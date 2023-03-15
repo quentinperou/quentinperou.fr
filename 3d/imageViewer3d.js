@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    ////// la version compliqué
-
     const imageViewer = document.querySelector(".imageViewer");
 
 
@@ -26,19 +24,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
         this.loadImage = function (val) {
             let index = this.currentImage + val;
-            console.log("loadImage index:", index);
-            document.querySelector(".imageViewer img").setAttribute("src", this.images[index].querySelector("img").getAttribute("src"));
+            console.log("LoadImage: Gallerie",this.gallerieIndex,"Index", index);
+            if(index < 0 || index >= this.images.length)
+                return;
             document.querySelector(".imageViewer figcaption").innerHTML = this.images[index].querySelector("figcaption").innerHTML;
+            document.querySelector(".imageViewer img").setAttribute("src", this.images[index].querySelector("img").getAttribute("src"));
             this.currentImage = index;
-
-            if (index == 0)
+            
+            if (index == 0) {
                 document.querySelector('.nav_back').style.display = "none";
-            else
+                return;
+            } else
                 document.querySelector('.nav_back').style.display = "block";
 
-            if (index == this.images.length - 1)
+            if (index == this.images.length - 1) {
                 document.querySelector('.nav_next').style.display = "none";
-            else
+                return;
+            } else
                 document.querySelector('.nav_next').style.display = "block";
         };
     }
