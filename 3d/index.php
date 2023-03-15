@@ -50,6 +50,7 @@ session_start();
                 <a href="../" class="menuElement">Accueil</a>
                 <a href="../photographie/" class="menuElement">Photographie</a>
                 <a href="../video/" class="menuElement">Vidéo</a>
+                <a href="#" class="menuElement">3D</a>
             </nav>
             <div class="burgerMenu " title="Menu">
                 <div class="bar1"></div>
@@ -66,10 +67,6 @@ session_start();
             <div class="contenuSectionProjets">
 
                 <div class="projet3d">
-                    <!-- <div>
-                        <h3>Diverses créations</h3>
-                        <p></p>
-                    </div> -->
                     <div class="gallerie">
                         <figure>
                             <img src="./images/glass-of-ice-tea.webp" alt="">
@@ -89,7 +86,7 @@ session_start();
                         </figure>
                         <figure>
                             <img src="./images/cadeaux-noel3.webp" alt="">
-                            <figcaption>Cadeaux de noël</figcaption>
+                            <figcaption>Cadeaux de Noël</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/candy2.webp" alt="">
@@ -97,29 +94,34 @@ session_start();
                         </figure>
                         <figure>
                             <img src="./images/mini-monde-lowpoly3-psd.webp" alt="">
-                            <figcaption>Un mini monde</figcaption>
+                            <figcaption>Une mini planète</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/Pot-a-crayons-3D.webp" alt="">
-                            <figcaption>Le pot à crayon du reportage sur le métier d'opérateur XR</figcaption>
+                            <figcaption>Le pot à crayon du reportage sur le métier d'opérateur XR.</figcaption>
                         </figure>
                         <video controls autoplay muted loop src="./images/cut-loop.webm"></video>
-                        <figure>
+
+                        <figure style="width: 40%;">
                             <img src="./images/metro.blend-eevee1.webp" alt="">
                             <figcaption>Une gare de métro</figcaption>
                         </figure>
-                        <figure>
+                        <figure style="width: 40%;">
                             <img src="./images/neon.blend-eevee.webp" alt="">
-                            <figcaption>Une modélisation isue d'un totoriel que j'ai suivi afin d'apprendre les bases du logiciel.</figcaption>
+                            <figcaption>Une modélisation issue d'un tutoriel que j'ai suivi afin d'apprendre les bases du logiciel.</figcaption>
                         </figure>
 
-                        <figure style="width: 40%;">
+                        <figure>
                             <img src="./images/Alain-le-plot2.webp" alt="">
                             <figcaption>Alain le plot</figcaption>
                         </figure>
-                        <figure style="width: 40%;">
+                        <figure>
                             <img src="./images/ice-cream2.webp" alt="">
                             <figcaption>Juste une glace</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/AmongUs.webp" alt="">
+                            <figcaption>Un couloir inspiré du jeu Among Us</figcaption>
                         </figure>
                     </div>
                     <div style="text-align: center; margin-top:20px;">
@@ -131,20 +133,20 @@ session_start();
                 <div class="projet3d">
                     <div>
                         <h3>TSI Studio</h3>
-                        <p>L'objectif de ce projet était de créer un studio avec un maximum de références à ma propotion de LP TSI.</p>
+                        <p>L'objectif de ce projet était de créer un décor de studio avec un maximum de références à ma promotion de LP TSI.</p>
                     </div>
                     <div class="gallerie">
                         <figure>
                             <img src="./images/tsi-studio2.webp" alt="">
-                            <figcaption>Un petit gros plan sur un détail</figcaption>
+                            <figcaption>Un gros plan sur un détail de la scène</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/tsi-studio1.webp" alt="">
-                            <figcaption>La 3D dans les textures</figcaption>
+                            <figcaption>Une capture d'écran de la 3D dans les textures</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/tsi-studio3.webp" alt="">
-                            <figcaption>Rendu finale</figcaption>
+                            <figcaption>Rendu final</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -152,16 +154,16 @@ session_start();
                 <div class="projet3d">
                     <div>
                         <h3>Ballons cœur</h3>
-                        <p>Même si on était en novembre j'ai souhaité faire une modélisation 3D type St-Valentin. </p>
+                        <p>J'ai souhaité faire une modélisation 3D type St-Valentin. </p>
                     </div>
                     <div class="gallerie">
                         <figure>
                             <img src="./images/Love-Balloon1.webp" alt="">
-                            <figcaption>des ballons</figcaption>
+                            <figcaption>Des ballons en forme de cœur sur un fond lumineux</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/Love-Balloon2.webp" alt="">
-                            <figcaption>test</figcaption>
+                            <figcaption>Les ballons sur un fond sombre</figcaption>
                         </figure>
                         <video controls autoplay muted loop src="./images/love-ballon-v1-evee_0001-0150.webm"></video>
                     </div>
@@ -179,20 +181,20 @@ session_start();
                         </figure>
                         <figure>
                             <img src="./images/whale-demo3.webp" alt="">
-                            <figcaption>Vue du dessus dans un décor</figcaption>
+                            <figcaption>Vue du dessus dans un décor.</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/whale-demo2.webp" alt="">
-                            <figcaption>Mise en stituation dans un environement style futuriste.</figcaption>
+                            <figcaption>Mise en situation dans un environnement style futuriste.</figcaption>
                         </figure>
-                        <video controls autoplay muted loop  src="./images/whale-demo.webm"></video>
+                        <video controls autoplay muted loop src="./images/whale-demo.webm"></video>
                     </div>
                 </div>
 
                 <div class="projet3d">
                     <div>
                         <h3>Coucher de soleil</h3>
-                        <p>Afin d'aprendre les bases de Blender j'ai réalisé ce coucher de soleil sur l'océan.</p>
+                        <p>Afin d'apprendre les bases de Blender, j'ai réalisé ce coucher de soleil sur l'océan.</p>
                     </div>
                     <div class="gallerie">
                         <figure style="background-color: #163040;">

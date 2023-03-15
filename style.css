@@ -386,6 +386,7 @@ video:fullscreen{
   /* white-space: nowrap; */
   text-overflow: ellipsis;
   /* text-transform: capitalize; */
+  padding: 15px;
 }
 
 .gallerie figure figcaption:hover {
