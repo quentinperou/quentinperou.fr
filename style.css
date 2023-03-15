@@ -334,6 +334,11 @@ main section:first-child {
   flex-wrap: inherit;
 }
 
+.projet3d .gallerie::after {
+  content: inherit;
+}
+
+
 /*********************************************************/
 /*                       GALLERIE                        */
 /*********************************************************/

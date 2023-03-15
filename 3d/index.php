@@ -50,7 +50,6 @@ session_start();
                 <a href="../" class="menuElement">Accueil</a>
                 <a href="../photographie/" class="menuElement">Photographie</a>
                 <a href="../video/" class="menuElement">Vidéo</a>
-                <!-- <a href="#contact" class="menuElement">Contact</a> -->
             </nav>
             <div class="burgerMenu " title="Menu">
                 <div class="bar1"></div>
@@ -63,7 +62,7 @@ session_start();
     <main>
 
         <section id="projets">
-            <h2>Mes réalisations</h2>
+            <h2>Mes créations 3D sur Blender</h2>
             <div class="contenuSectionProjets">
 
                 <div class="projet3d">
