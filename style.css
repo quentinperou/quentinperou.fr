@@ -342,9 +342,14 @@ main section:first-child {
 .projet3d .gallerie video {
   object-fit: cover;
   cursor: inherit;
+  width: 30%;
 }
-video:fullscreen{
+video:fullscreen {
   object-fit: contain !important;
+}
+
+.projet3d .gallerie figure {
+  width: 30%;
 }
 
 /*********************************************************/
@@ -364,7 +369,6 @@ video:fullscreen{
   flex-grow: 1;
   margin: 0;
   cursor: pointer;
-  width: 30%;
 }
 
 .gallerie figure figcaption {
