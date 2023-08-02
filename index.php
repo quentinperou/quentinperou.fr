@@ -108,15 +108,14 @@ session_start();
             <!-- <h2>Mon showreel !</h2> -->
             <div class="contenuSectionProjets">
 
-                <div class="projet">
+            <div class="projet">
                     <div>
-                        <img src="./video/images/operateurXr.webp" alt="">
+                        <img src="./video/images/miniature-video-4-ans-vue-du-ciel.webp" alt="">
                     </div>
                     <div>
-                        <h3>Reportage "Réalité ou illusion"</h3>
-                        <p>Au cours de ma licence professionnelle à l'IUT d'Angoulême, j'ai pu réaliser un reportage sur le métier d'opérateur XR. A cette occasion je me suis rendu dans les studios de TSF à Paris avec Thomas Zych, Julie Patron et Benjamin Thouet afin de rencontrer les équipes de l'entreprise MADO XR. <br> Pour ce reportage <strong>j'ai réalisé les effets spéciaux</strong> de l'intoduction avec les logiciels Blender pour la 3D et After Effects pour le compositing. Je me suis également occupé de l'<strong>étalonnage</strong> de la vidéo ansi que des synthés pour lesquels j'ai créé une template d'animation Premiere Pro (.mogrt) sous After Effects.</p>
-                        <p>Ce reportage a été récompensé d'un <strong>Clap d'Argent</strong> au concours national "Je Filme Le Métier Qui Me Plaît" en juin 2022.</p>
-                        <a href="https://parcoursmetiers.tv/video/13143-realite-ou-illusion" class="bouton" target="_blank">Voir la vidéo</a>
+                        <h3>4 ANNÉES VUES DU CIEL</h3>
+                        <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
+                        <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo sur YouTube</a>
                         <!-- <a href="./video/" class="bouton invert">Mes autres réalisations video</a> -->
                     </div>
                 </div>
@@ -138,7 +137,7 @@ session_start();
                     <h3>Quentin Pérou</h3>
                     <p><strong>Passionné d'audiovisuel</strong> depuis de nombreuses années, en 2019 suite à mon BAC Technologique je me suis orienté vers un DUT Métiers du Multimédia et de l'Internet (MMI) puis vers une Licence Professionnelle Techniques du Son et de l'Image (TSI). En parallèle de mes études, je réalisais des photographies pour le loisir ainsi que sur des évènements étudiants.</p>
                     <p>En 2022, j’ai effectué un stage de 4 mois en tant que Community Manager au sein d’un camping du groupe Capfun. J’ai pu y développer mes compétences en <strong>photographie</strong> ainsi que découvrir puis réaliser la <strong>régie son et lumière</strong> des spectacles et animations. Cette expérience m’a apporté beaucoup sur le plan humain et professionnel, notamment en me faisant gagner en autonomie.</p>
-                    <p>Je suis <strong>actuellement à la recherche d’un emploi</strong> en tant que cadreur/monteur ou régisseur et suis à l'écoute de vos propositions !</p>
+                    <p>Je suis <strong>actuellement à la recherche d’un emploi</strong> en tant que cadreur/monteur ou réalisateur live et suis à l'écoute de vos propositions !</p>
                     <div class="div-a-propos-lien">
                         <!-- <a href="https://drive.google.com/file/d/1TRwvM2xTOazDUme9OiBqHHkWhjWb-yud/view" class="bouton" target="_blank">Mon CV</a> -->
                     </div>

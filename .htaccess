@@ -10,12 +10,11 @@ RewriteEngine On
 # RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
 ###Redirige les requetes vers les fichiers correspondants
-# RewriteRule photographie$ photo.php
-# RewriteRule video$ video.php
 RewriteRule mentions-legales$ mentions-legales.php
 RewriteRule legacy$ mentions-legales.php
 RewriteRule photo$ ./photographie
 
+RewriteRule 3d$ https://quentinperou.dyjix.fr/quentinperou.fr/3d/
 
 RewriteRule insta$ https://www.instagram.com/quentinperou/
 RewriteRule insta3d$ https://www.instagram.com/byquentin_/
