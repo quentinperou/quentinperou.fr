@@ -108,12 +108,12 @@ session_start();
                         </figure>
                         <figure style="width: 40%;">
                             <img src="./images/neon.blend-eevee.webp" alt="">
-                            <figcaption>Une modélisation issue d'un tutoriel que j'ai suivi afin d'apprendre les bases du logiciel.</figcaption>
+                            <figcaption>Une modélisation issue d'un tutoriel que j'ai suivi afin d'apprendre les bases du logiciel Blender.</figcaption>
                         </figure>
 
                         <figure>
                             <img src="./images/Alain-le-plot2.webp" alt="">
-                            <figcaption>Alain le plot</figcaption>
+                            <figcaption>Alain le plot - J'ai pas plus d'explication</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/ice-cream2.webp" alt="">
@@ -142,7 +142,7 @@ session_start();
                         </figure>
                         <figure>
                             <img src="./images/tsi-studio1.webp" alt="">
-                            <figcaption>Une capture d'écran de la 3D dans les textures</figcaption>
+                            <figcaption>Une capture d'écran de la 3D sans les textures</figcaption>
                         </figure>
                         <figure>
                             <img src="./images/tsi-studio3.webp" alt="">
@@ -154,7 +154,7 @@ session_start();
                 <div class="projet3d">
                     <div>
                         <h3>Ballons cœur</h3>
-                        <p>J'ai souhaité faire une modélisation 3D type St-Valentin. </p>
+                        <p>J'ai souhaité faire une modélisation 3D dans le style St-Valentin. </p>
                     </div>
                     <div class="gallerie">
                         <figure>

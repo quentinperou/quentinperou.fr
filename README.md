@@ -8,7 +8,7 @@ Version : mars 2023
 
 <br>
 
-Développé en live sur Twitch : [twitch.tv/quentinperou](https://www.twitch.tv/quentinperou)
+<!-- Développé en live sur Twitch : [twitch.tv/quentinperou](https://www.twitch.tv/quentinperou) -->
 
 <br>
 
@@ -40,3 +40,7 @@ Développé en live sur Twitch : [twitch.tv/quentinperou](https://www.twitch.tv/
 </figure>
 ```
 
+### **A ajouter dans les iframe Youtube**
+```
+?showinfo=0&color=white&rel=0
+```

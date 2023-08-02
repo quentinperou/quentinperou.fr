@@ -81,9 +81,10 @@ session_start();
                 <div class="projet">
                     <div>
                         <img src="./images/miniature-video-4-ans-vue-du-ciel.webp" alt="">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/of8xKUOjzvw?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                     <div>
-                        <h3>4 ANNÉES VUES DU CIEL</h3>
+                        <h3>Vidéo "4 ANNÉES VUES DU CIEL"</h3>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
                         <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo</a>
                     </div>
@@ -92,6 +93,7 @@ session_start();
                 <div class="projet">
                     <div>
                         <img src="./images/operateurXr.webp" alt="">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QEnCnQl_C3Q?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                     <div>
                     <h3>Reportage "Réalité ou illusion"</h3>
@@ -104,6 +106,7 @@ session_start();
                 <div class="projet">
                     <div>
                         <img src="./images/passeRecompose.webp" alt="">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0WIhy1HRjoI?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                     <div>
                         <h3>Court-métrage "Passé recomposé"</h3>
@@ -115,6 +118,7 @@ session_start();
                 <div class="projet">
                     <div>
                         <img src="./images/clipBigbtCorps.webp" alt="">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/thFsG2O4Vuc?rel=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                     <div>
                         <h3>Clip "Corps, Yseult - COVER"</h3>
@@ -126,6 +130,7 @@ session_start();
                 <div class="projet">
                     <div>
                         <img src="./images/julie.webp" alt="">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T1gQjSipqpI?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                     <div>
                         <h3>Court-métrage "Julie !"</h3>
