@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cursor = "|";
 
     const titreElm = document.querySelector(".contenuSectionApropos div:nth-child(2) h3");
-    
+
     const titreOrginal = titreElm.textContent;
     titreElm.innerHTML = `${titreOrginal}<span id="textContainer"></span><span id="cursor"></span>`;
 
@@ -73,5 +73,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 500);
     }
 
+
+    /********** Changement photo profil au click **********/
+    document.getElementById("photoProfil").addEventListener("click", function () {
+        let currentPhoto = this.src.split("-")[1];
+        this.src = `images/photo_profil-${currentPhoto == 4 ? 1 : parseInt(currentPhoto) + 1}-c.jpg`;
+    });
 
 });
