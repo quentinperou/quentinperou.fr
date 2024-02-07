@@ -13,11 +13,17 @@ RewriteEngine On
 RewriteRule mentions-legales$ mentions-legales.php
 RewriteRule legacy$ mentions-legales.php
 RewriteRule legal$ mentions-legales.php
+
 RewriteRule photo$ ./photographie
 
-# RewriteRule 3d$ https://quentinperou.dyjix.fr/quentinperou.fr/3d/
+# RewriteRule 3d https://quentinperou.dyjix.fr/quentinperou.fr/3d/
 
-RewriteRule insta$ https://www.instagram.com/quentinperou/
-RewriteRule insta3d$ https://www.instagram.com/byquentin_/
+###Redirections vers les reseaux sociaux et autres
+RewriteRule insta https://www.instagram.com/quentinperou/
+RewriteRule insta3d https://www.instagram.com/byquentin_/
+
+RewriteRule linkedin https://www.linkedin.com/in/quentinperou/
+
+RewriteRule twitch https://www.twitch.tv/quentinperou 
 
 RewriteRule showreel https://youtu.be/t_VYn4xi-I4

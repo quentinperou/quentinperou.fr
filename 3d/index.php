@@ -69,6 +69,10 @@ session_start();
                 <div class="projet3d">
                     <div class="gallerie">
                         <figure>
+                            <video autoplay muted loop src="./images/burger 0001-0060.webm"></video>
+                            <figcaption>Animation d'un burger</figcaption>
+                        </figure>
+                        <figure>
                             <img src="./images/glass-of-ice-tea.webp" alt="">
                             <figcaption>Verre d'ice-tea</figcaption>
                         </figure>
@@ -100,7 +104,10 @@ session_start();
                             <img src="./images/Pot-a-crayons-3D.webp" alt="">
                             <figcaption>Le pot à crayon du reportage sur le métier d'opérateur XR.</figcaption>
                         </figure>
-                        <video controls autoplay muted loop src="./images/cut-loop.webm"></video>
+                        <figure>
+                            <video autoplay muted loop src="./images/cut-loop.webm"></video>
+                            <figcaption>Une animation qui boucle à l'infini</figcaption>
+                        </figure>
 
                         <figure style="width: 40%;">
                             <img src="./images/metro.blend-eevee1.webp" alt="">
@@ -125,7 +132,7 @@ session_start();
                         </figure>
                     </div>
                     <div style="text-align: center; margin-top:20px;">
-                        <a href="https://instagram.com/byquentin_" class="bouton invert" target="_blank">Mon Instagram 3D</a>
+                        <a href="https://instagram.com/byquentin_" class="bouton btFill" target="_blank">Mon Instagram 3D</a>
 
                     </div>
                 </div>
@@ -165,7 +172,10 @@ session_start();
                             <img src="./images/Love-Balloon2.webp" alt="">
                             <figcaption>Les ballons sur un fond sombre</figcaption>
                         </figure>
-                        <video controls autoplay muted loop src="./images/love-ballon-v1-evee_0001-0150.webm"></video>
+                        <figure>
+                            <video autoplay muted loop src="./images/love-ballon-v1-evee_0001-0150.webm"></video>
+                            <figcaption>Loop vidéo</figcaption>
+                        </figure>
                     </div>
                 </div>
 
@@ -187,7 +197,10 @@ session_start();
                             <img src="./images/whale-demo2.webp" alt="">
                             <figcaption>Mise en situation dans un environnement style futuriste.</figcaption>
                         </figure>
-                        <video controls autoplay muted loop src="./images/whale-demo.webm"></video>
+                        <figure>
+                            <video autoplay muted loop src="./images/whale-demo.webm"></video>
+                            <figcaption>Animation vidéo de la baleine.</figcaption>
+                        </figure>
                     </div>
                 </div>
 
@@ -201,7 +214,10 @@ session_start();
                             <img src="./images/sunset.blend1.webp" alt="">
                             <figcaption>Un couher de soleil sur l'océan</figcaption>
                         </figure>
-                        <video controls autoplay muted loop src="./images/sunset.webm"></video>
+                        <figure>
+                            <video autoplay muted loop src="./images/sunset.webm"></video>
+                            <figcaption></figcaption>
+                        </figure>
                     </div>
                 </div>
 
@@ -215,7 +231,8 @@ session_start();
                     <rect transform="rotate(-45)" ry="0" y="10.313708" x="-7" height="2" width="14" id="rect1006-5" />
                 </svg>
 
-                <img src="" alt="">
+                <img src="" alt="" hidden>
+                <video controls autoplay muted loop src="" hidden></video>
                 <figcaption></figcaption>
 
                 <svg class="gallerie_nav nav_back" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">

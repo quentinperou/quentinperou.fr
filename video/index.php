@@ -65,6 +65,7 @@ session_start();
 
         <section id="projets">
             <h2>Mes réalisations</h2>
+
             <div class="contenuSectionProjets">
 
                 <!-- <div class="projet">
@@ -97,7 +98,7 @@ session_start();
                         <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QEnCnQl_C3Q?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                     <div>
-                    <h3>Reportage "Réalité ou illusion"</h3>
+                        <h3>Reportage "Réalité ou illusion"</h3>
                         <p>Au cours de ma licence professionnelle à l'IUT d'Angoulême, j'ai pu réaliser un reportage sur le métier d'opérateur XR. A cette occasion je me suis rendu dans les studios de TSF à Paris avec Thomas Zych, Julie Patron et Benjamin Thouet afin de rencontrer les équipes de l'entreprise MADO XR. <br> Pour ce reportage <strong>j'ai réalisé les effets spéciaux</strong> de l'intoduction avec les logiciels Blender pour la 3D et After Effects pour le compositing. Je me suis également occupé de l'<strong>étalonnage</strong> de la vidéo ansi que des synthés pour lesquels j'ai créé une template d'animation Premiere Pro (.mogrt) sous After Effects.</p>
                         <p>Ce reportage a été récompensé d'un <strong>Clap d'Argent</strong> au concours national "Je Filme Le Métier Qui Me Plaît" en juin 2022.</p>
                         <a href="https://parcoursmetiers.tv/video/13143-realite-ou-illusion" class="bouton" target="_blank">Voir la vidéo</a>
@@ -169,7 +170,7 @@ session_start();
                     <div>
                         <h3>Vidéo explicative sur un drone</h3>
                         <p>Cette vidéo a été réalisée à 100% par mes soins dans le cadre de mon DUT MMI en 2020 pendant le confinement. L'objectif était de présenter et d'expliquer rapidement le fonctionnement d'un objet dans un format type réseaux sociaux. J'ai donc choisi mon drone comme sujet puis filmé et monté tous les plans nécessaires.</p>
-                        <a href="https://youtu.be/2WThzPxGlsY" class="bouton" target="_blank">Voir le projet</a>
+                        <a href="https://youtu.be/2WThzPxGlsY" class="bouton" target="_blank">Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -181,6 +182,17 @@ session_start();
                         <h3>Court-métrage "Le Péché"</h3>
                         <p>Court-métrage réalisé en 48h dans le cadre du "48 Hour Film Project" de Nantes en 2020. Sur ce projet, j'ai participé au <strong>montage</strong> ainsi qu'à l'élaboration du décor. J'ai également réalisé des <strong>photos de plateau</strong> pour l'équipe. </p>
                         <a href="https://youtu.be/NSizfEfcmlQ" class="bouton" target="_blank">Voir la vidéo</a>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <div>
+                        <img src="./images/CV-vidéo-2020.webp" alt="">
+                    </div>
+                    <div>
+                        <h3>CV vidéo 2020</h3>
+                        <p>Dans le cadre de mon DUT MMI j'ai réalisé un CV au format vidéo afin d'apuyer mes candidatures lors de ma recherche de stage. Ce projet m'a permis d'utiliser Adobe After Effects pour faire l'ensemble du motion-design.</p>
+                        <a href="https://youtu.be/PnZMezw47SI" class="bouton" target="_blank">Voir la vidéo</a>
                     </div>
                 </div>
 

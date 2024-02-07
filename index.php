@@ -110,17 +110,18 @@ session_start();
             <iframe id="showreel" src="https://www.youtube-nocookie.com/embed/t_VYn4xi-I4?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <style>
                 #showreel {
-                    height: 550px;
-                    width: 90%;
+                    /* height: 550px; */
+                    width: 100%;
                     margin-top: 30px;
-                    margin-bottom: 50px;
+                    margin-bottom: 100px;
+                    aspect-ratio: 16/9;
                 }
 
-                @media screen and (max-width: 800px) {
+                /* @media screen and (max-width: 800px) {
                     #showreel {
                         height: 350px;
                     }
-                }
+                } */
             </style>
             <!-- <a href="https://quentinperou.fr/showreel" class="bouton" target="_blank">Voir mon Showreel</a> -->
 
@@ -128,23 +129,24 @@ session_start();
             <h2>Ma dernière réalisation</h2>
             <div class="contenuSectionProjets">
 
-                <div class="projet">
+                <div class="projet" style="margin: 30px 0 60px 0;">
                     <div>
                         <!-- <img src="./video/images/miniature-video-4-ans-vue-du-ciel.webp" alt=""> -->
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/of8xKUOjzvw?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube-nocookie.com/embed/of8xKUOjzvw?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div>
                         <h3>Vidéo "4 ANNÉES VUES DU CIEL"</h3>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
-                        <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo sur YouTube</a>
-                        <!-- <a href="./video/" class="bouton invert">Mes autres réalisations video</a> -->
+                        <p>Les plans ont été filmés par mes soins avec un DJI Mavic Air puis montés sur le logiciel Adobe Premiere Pro.</p>
+                        <!-- <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo sur YouTube</a> -->
+                        <!-- <a href="./video/" class="bouton btFill">Mes autres réalisations video</a> -->
                     </div>
                 </div>
 
             </div>
-            <div style="margin-bottom: 40px; text-align: center;">
-                <a href="./video/" class="bouton invert" style="margin: 10px;">Voir mes réalisations vidéo</a>
-                <a href="./photographie/" class="bouton invert" style="margin: 10px;">Voir mes photographies</a>
+            <div style="margin-bottom: 40px;">
+                <a href="./video/" class="bouton btFill" style="margin: 10px 10px 10px 0;">Voir mes réalisations vidéo</a>
+                <a href="./photographie/" class="bouton btFill" style="margin: 10px 10px 10px 0;">Voir mes photographies</a>
             </div>
         </section>
 
@@ -152,7 +154,7 @@ session_start();
             <h2>À propos de moi</h2>
             <div class="contenuSectionApropos">
                 <div>
-                    <img id="photoProfil" src="images/photo_profil-<?php echo (rand(1, 4)); ?>-c.jpg" alt="photo de Quentin Pérou">
+                    <img id="photoProfil" src="images/photo_profil-<?php echo (rand(2, 4)); ?>-c.jpg" alt="photo de Quentin Pérou" title="Clique pour voir...">
                 </div>
                 <div>
                     <h3>Quentin Pérou</h3>

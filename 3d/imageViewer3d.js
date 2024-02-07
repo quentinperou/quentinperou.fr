@@ -24,13 +24,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
         this.loadImage = function (val) {
             let index = this.currentImage + val;
-            console.log("LoadImage: Gallerie",this.gallerieIndex,"Index", index);
-            if(index < 0 || index >= this.images.length)
+            console.log("LoadImage: Gallerie", this.gallerieIndex, "Index", index);
+            if (index < 0 || index >= this.images.length)
                 return;
             document.querySelector(".imageViewer figcaption").innerHTML = this.images[index].querySelector("figcaption").innerHTML;
-            document.querySelector(".imageViewer img").setAttribute("src", this.images[index].querySelector("img").getAttribute("src"));
+            if (this.images[index].querySelector("img") != null) {
+                document.querySelector(".imageViewer video").hidden = true;
+                document.querySelector(".imageViewer video").setAttribute("src", "");
+                document.querySelector(".imageViewer img").setAttribute("src", this.images[index].querySelector("img").getAttribute("src"));
+                document.querySelector(".imageViewer img").hidden = false;
+            }
+            else if (this.images[index].querySelector("video") != null) {
+                document.querySelector(".imageViewer img").hidden = true;
+                document.querySelector(".imageViewer img").setAttribute("src", "");
+                document.querySelector(".imageViewer video").setAttribute("src", this.images[index].querySelector("video").getAttribute("src"));
+                document.querySelector(".imageViewer video").hidden = false;
+            }
             this.currentImage = index;
-            
+
             if (index == 0) {
                 document.querySelector('.nav_back').style.display = "none";
             } else
@@ -77,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
     imageViewer.addEventListener("click", function () {
         this.classList.remove("visible");
         imageViewer.removeAttribute("data-gallerieIndex");
+        document.querySelector(".imageViewer video").setAttribute("src", "");
+        document.querySelector(".imageViewer img").setAttribute("src", "");
     });
 
 
