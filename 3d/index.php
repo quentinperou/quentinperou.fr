@@ -186,7 +186,7 @@ session_start();
                     </div>
                     <div class="gallerie">
                         <figure style="background-color: #163040;">
-                            <img src="./images/whale-emoji2-twitch.webp" alt="">
+                            <img src="./images/whale-emoji2.webp" alt="">
                             <figcaption>La Baleine au format PNG</figcaption>
                         </figure>
                         <figure>
