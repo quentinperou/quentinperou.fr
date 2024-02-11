@@ -88,7 +88,7 @@ session_start();
                     <div>
                         <h3>Présentation produit : Canon R7"</h3>
                         <span class="projetAnnee">2024</span>
-                        <p>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride de chez Canon, le EOS R7.  </p>
+                        <p>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride Canon EOS R7.  </p>
                         <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton" target="_blank">Voir sur Instagram</a>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ session_start();
                     <div>
                         <h3>Présentation produit : Sony a6700"</h3>
                         <span class="projetAnnee">2024</span>
-                        <p>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production je maitrise 100% de la création de cette vidéo. </p>
+                        <p>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production j'ai réalisé intégralement de cette vidéo. </p>
                         <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton" target="_blank">Voir sur Instagram</a>
                     </div>
                 </div>
