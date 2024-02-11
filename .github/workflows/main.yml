@@ -16,9 +16,3 @@ jobs:
         server: 185.171.202.140
         username: github
         password: ${{ secrets.PASSWORD }}
-        exclude: |
-          .gitignore
-          README.md
-          apercu-portfolio-v2.jpg
-          .vscode
-          .github
