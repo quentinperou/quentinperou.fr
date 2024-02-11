@@ -17,8 +17,10 @@ jobs:
         username: github
         password: ${{ secrets.PASSWORD }}
         exclude: |
-          .gitignore
-          README.md
-          apercu-portfolio-v2.jpg
-          .vscode
-          .github
+          **/.git*
+          **/.git*/**
+          **.gitignore
+          /README.md
+          /apercu-portfolio-v2.jpg
+          **/.vscode/
+          **/.github/
