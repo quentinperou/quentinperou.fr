@@ -64,7 +64,7 @@ session_start();
 
         <section id="projets">
             <h2>Mes créations 3D sur Blender</h2>
-            <div class="contenuSectionProjets">
+            <div class="contenuSectionProjets" style="margin-top: 20px;">
 
                 <div class="projet3d">
                     <div class="gallerie">
