@@ -110,7 +110,7 @@ session_start();
 
 
                 <br>
-                <p>Le code source du site est disponible sur GitHub : <a href="https://github.com/quentinperou/quentinperou.fr">https://github.com/quentinperou/quentinperou.fr</a></p>
+                <p>Le code source du site est disponible sur GitHub : <a href="https://github.com/quentinperou/quentinperou.fr" target="_blank">https://github.com/quentinperou/quentinperou.fr</a></p>
 
             </div>
         </section>
