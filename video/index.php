@@ -86,7 +86,7 @@ session_start();
                         <img src="./images/video canon r7 2 (1).webp" alt="">
                     </div>
                     <div>
-                        <h3>Présentation produit : Canon R7"</h3>
+                        <h3>Présentation produit : Canon R7</h3>
                         <span class="projetAnnee">2024</span>
                         <p>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride Canon EOS R7.  </p>
                         <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton" target="_blank">Voir sur Instagram</a>
@@ -98,7 +98,7 @@ session_start();
                         <img src="./images/video sony a6700 2 (1).webp" alt="">
                     </div>
                     <div>
-                        <h3>Présentation produit : Sony a6700"</h3>
+                        <h3>Présentation produit : Sony a6700</h3>
                         <span class="projetAnnee">2024</span>
                         <p>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production j'ai réalisé intégralement de cette vidéo. </p>
                         <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton" target="_blank">Voir sur Instagram</a>
