@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v4.1.1
+      uses: actions/checkout@v3
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -16,3 +16,9 @@ jobs:
         server: 185.171.202.140
         username: github
         password: ${{ secrets.PASSWORD }}
+        exclude: |
+          .gitignore
+          README.md
+          apercu-portfolio-v2.jpg
+          .vscode
+          .github

@@ -49,7 +49,7 @@ session_start();
                 <a href="../" class="menuElement">Accueil</a>
                 <a href="#" class="menuElement selected">Photographie</a>
                 <a href="../video/" class="menuElement">Vidéo</a>
-                <a href="../3d/" class="menuElement">3D</a>
+                <!-- <a href="../3d/" class="menuElement">3D</a> -->
                 <!-- <a href="#contact" class="menuElement">Contact</a> -->
             </nav>
             <div class="burgerMenu " title="Menu">
