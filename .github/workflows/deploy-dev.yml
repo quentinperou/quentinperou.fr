@@ -1,7 +1,7 @@
-name: 🚀 Deploy website on push
+name: 🚧 Deploy DEV version on push
 on:
   push:
-   branches: main
+   branches: dev
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -16,7 +16,7 @@ jobs:
         server: 185.171.202.140
         username: github
         password: ${{ secrets.PASSWORD }}
-        server-dir: './autodeployportfolio/'
+        server-dir: './autodevportfolio/'
         exclude: |
           **/.git*
           **/.git*/**
