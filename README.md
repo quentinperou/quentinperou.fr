@@ -2,7 +2,7 @@
 
 Code de mon portfolio : https://quentinperou.fr/
 
-Version : mars 2023
+Version : Février 2024
 
 ![home page](apercu-portfolio-v2.jpg)
 
