@@ -16,7 +16,7 @@ jobs:
         server: 185.171.202.140
         username: github
         password: ${{ secrets.PASSWORD }}
-        local-dir: ./autodeployportfolio/
+        local-dir: autodeployportfolio/
         exclude: |
           .gitignore
           README.md
