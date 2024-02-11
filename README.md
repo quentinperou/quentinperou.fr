@@ -2,7 +2,7 @@
 
 Code de mon portfolio : https://quentinperou.fr/
 
-Version : Février 2024
+Version : février 2024
 
 ![home page](apercu-portfolio-v2.jpg)
 
@@ -25,11 +25,26 @@ Version : Février 2024
   </div>
   <div>
     <h3>Mon projet</h3>
+    <span class="projetAnnee">2024</span>
     <p>La desciption</p>
     <a href="#" class="bouton" target="_blank">Voir le projet</a>
   </div>
 </div>
 ```
+
+### **Structure html des projets vidéo verticaux**
+
+```html
+<div class="projetVertical">
+  <img src="./images/" alt="" />
+  <div>
+    <h3>XXXXXXXX</h3>
+    <p>XXXXXXXXXXX</p>
+    <a href="XXXXXXXXXXX" class="bouton btInvert" target="_blank">Voir la vidéo</a>
+  </div>
+</div>
+```
+
 
 ### **Structure html des photos**
 
@@ -41,6 +56,7 @@ Version : Février 2024
 ```
 
 ### **A ajouter dans les iframe Youtube**
+
 ```
 ?showinfo=0&color=white&rel=0
 ```

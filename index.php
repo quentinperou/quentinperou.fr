@@ -21,7 +21,8 @@ session_start();
     <meta property="og:url" content="https://quentinperou.fr" />
     <meta property="og:title" content="Quentin Pérou | Portfolio" />
     <meta property="og:description" content="Portfolio de Quentin Pérou, photographe et vidéaste." />
-    <meta property="og:image" content="https://quentinperou.fr/images/photo_profil-4-c.jpg">
+    <!-- <meta property="og:image" content="https://quentinperou.fr/images/photo_profil-4-c.jpg"> -->
+    <meta property="og:image" content="https://quentinperou.dyjix.fr/quentinperou.fr/images/photo_profil-4-c.jpg">
 
     <!--    ICON DU SITE    -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
@@ -50,7 +51,7 @@ session_start();
                 <a href="#" class="menuElement selected">Accueil</a>
                 <a href="./photographie/" class="menuElement">Photographie</a>
                 <a href="./video/" class="menuElement">Vidéo</a>
-                <!-- <a href="./3d/" class="menuElement">3D</a> -->
+                <a href="./3d/" class="menuElement">3D</a>
                 <!-- <a href="#contact" class="menuElement">Contact</a> -->
             </nav>
             <div class="burgerMenu " title="Menu">
