@@ -23,4 +23,5 @@ jobs:
           /README.md
           /apercu-portfolio-v2.jpg
           **/.vscode/
+          **/.vscode/**
           **/.github/
