@@ -68,18 +68,6 @@ session_start();
 
             <div class="contenuSectionProjets">
 
-                <!-- <div class="projet">
-                    <div>
-                        <img src="./images/showreel2023.webp" alt="">
-                    </div>
-                    <div>
-                        <h3>Mon SHOWREEL 2023</h3>
-                        <p>Dans le cadre de mon actuelle recherche d'emploi, j'ai réalisé cette bande-démo afin de vous présenter rapidement mes compétences et réalisations.</p>
-                        <p>En cours de remontage…</p>
-                        <a href="https://youtu.be/mteXXkZctvc" class="bouton" target="_blank">Voir la vidéo</a>
-                    </div>
-                </div> -->
-
                 <div class="projet">
                     <div>
                         <img src="./images/miniature-video-4-ans-vue-du-ciel.webp" alt="">
