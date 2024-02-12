@@ -75,7 +75,7 @@ session_start();
                     </div>
                     <div>
                         <h3>Vidéo "4 ANNÉES VUES DU CIEL"</h3>
-                        <span class="projetAnnee">2024</span>
+                        <span class="projetAnnee">2023</span>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
                         <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo</a>
                     </div>
@@ -87,7 +87,7 @@ session_start();
                     </div>
                     <div>
                         <h3>Présentation produit : Canon R7</h3>
-                        <span class="projetAnnee">2024</span>
+                        <span class="projetAnnee">2023</span>
                         <p>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride Canon EOS R7.  </p>
                         <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton" target="_blank">Voir sur Instagram</a>
                     </div>
@@ -99,7 +99,7 @@ session_start();
                     </div>
                     <div>
                         <h3>Présentation produit : Sony a6700</h3>
-                        <span class="projetAnnee">2024</span>
+                        <span class="projetAnnee">2023</span>
                         <p>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production j'ai réalisé intégralement de cette vidéo. </p>
                         <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton" target="_blank">Voir sur Instagram</a>
                     </div>
