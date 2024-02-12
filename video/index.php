@@ -144,7 +144,7 @@ session_start();
                     </div>
                     <div>
                         <h3>Vidéo "4 ANNÉES VUES DU CIEL"</h3>
-                        <span class="projetAnnee">2024</span>
+                        <span class="projetAnnee">2023</span>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
                         <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo</a>
                     </div>
