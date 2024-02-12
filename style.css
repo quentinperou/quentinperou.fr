@@ -240,15 +240,12 @@ header {
   position: absolute;
   bottom: 10%;
   right: 5%;
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  /* padding: 20px 50px; */
 }
 
 #accueil p {
   color: white;
   text-align: end;
   margin: 20px 0;
-  /* margin: 0; */
   font-size: 2.5rem;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
@@ -395,9 +392,7 @@ main section:first-child {
   text-align: center;
 
   overflow: hidden;
-  /* white-space: nowrap; */
   text-overflow: ellipsis;
-  /* text-transform: capitalize; */
   padding: 15px;
 }
 
@@ -426,7 +421,6 @@ figcaption::first-letter {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  user-select: none;
   opacity: 0;
   transition: opacity 100ms ease-in-out;
 }
@@ -454,7 +448,6 @@ figcaption::first-letter {
   color: white;
   max-width: 80%;
   text-align: center;
-  /* text-transform: capitalize; */
 }
 .imageViewer video {
   max-width: 80%;
@@ -532,8 +525,6 @@ figcaption::first-letter {
 
 .projet iframe {
   width: 100%;
-  /* height: 100%; */
-  /* min-height: 350px; */
   border: none;
   aspect-ratio: 16/9;
 }
@@ -552,7 +543,6 @@ figcaption::first-letter {
 }
 
 .projet3d .gallerie {
-  /* flex-wrap: inherit; */
   margin-top: 0;
 }
 
@@ -586,7 +576,6 @@ video:fullscreen {
 }
 
 .gallerieVertical-item {
-  /* display: inline-block; */
   white-space: nowrap;
   transition: transform 200ms ease-in-out;
   font-size: 0;
@@ -595,12 +584,8 @@ video:fullscreen {
 .projetVertical {
   display: inline-block;
   position: relative;
-  /* height: 100%; */
-  /* max-width: 300px; */
-  /* width: calc(100% / 4 - 5px); */
   width: calc((100% - 5px * 3) / 4);
   aspect-ratio: 9/16;
-  /* font-size: 1rem; */
 }
 
 .projetVertical:not(:last-child) {
@@ -619,7 +604,6 @@ video:fullscreen {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.8); */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgb(0, 0, 0));
   opacity: 0;
   transition: opacity 150ms ease-in-out;
@@ -628,15 +612,17 @@ video:fullscreen {
   flex-direction: column;
   justify-content: flex-end;
   white-space: normal;
-  /* overflow: hidden; */
   text-overflow: ellipsis;
-  /* text-transform: capitalize; */
   padding: 15px;
   font-size: 1rem;
 }
 
 .projetVertical div:hover {
   opacity: 1;
+}
+
+.projetVertical .bouton{
+  display: revert-layer;
 }
 
 .contenuSectionProjetsVertical .gallerie_nav {
@@ -654,12 +640,10 @@ video:fullscreen {
   background-color: var(--color-gray-1-hover);
 }
 .contenuSectionProjetsVertical .nav_back {
-  /* left: -25px; */
   left: calc(var(--taille-Bouton) / 2 * -1);
   transform: rotate(-90deg) translateX(+50%);
 }
 .contenuSectionProjetsVertical .nav_next {
-  /* right: -25px; */
   right: calc(var(--taille-Bouton) / 2 * -1);
   transform: rotate(90deg) translateX(-50%);
 }
@@ -671,13 +655,13 @@ video:fullscreen {
 }
 .contenuSectionProjetsVertical .videoViewer div {
   width: 50%;
+  padding: 2rem;
 }
 .contenuSectionProjetsVertical .videoViewer iframe {
   height: 100%;
   aspect-ratio: 9/16;
   object-fit: cover;
   object-position: 50% 50%;
-  margin-right: 2rem;
 }
 
 /*********************************************************/
@@ -752,7 +736,6 @@ footer p {
 @media screen and (max-width: 850px) {
   .menu {
     justify-content: center;
-    /* align-items: flex-end; */
     align-items: center;
     flex-direction: column;
     width: 100vw;
@@ -763,7 +746,6 @@ footer p {
     transition: left 0.5s ease-in-out;
     background-color: rgba(255, 255, 255, 0.95);
     font-size: 2rem;
-    /* padding: 30px; */
   }
 
   .menu.visible {
@@ -780,7 +762,6 @@ footer p {
 
   #accueil p {
     font-size: 1.5rem;
-    /* text-align: start; */
   }
   #accueil .titreAccueil {
     font-size: 5rem;
@@ -876,17 +857,18 @@ footer p {
 
   .contenuSectionProjetsVertical .videoViewer {
     flex-direction: column;
-    pointer-events: none;
     background-color: rgba(0, 0, 0, 0.98);
+    padding: 0;
   }
   .contenuSectionProjetsVertical .videoViewer iframe {
-    height: 50%;
-    width: auto;
-    margin: 0 0 1rem 0;
     display: none;
+  }
+  .contenuSectionProjetsVertical .videoViewer a.bouton{
+    display: inline-block !important;
   }
   .contenuSectionProjetsVertical .videoViewer div {
     width: 100%;
+    padding: 2rem;
   }
 }
 

@@ -140,7 +140,9 @@ enSavoirPlus.forEach((btn, index) => {
         if (videoLink[2].startsWith("youtu.be")) {
             imageViewer.querySelector('iframe').src = `https://www.youtube-nocookie.com/embed/${videoLink[videoLink.length - 1]}?showinfo=0&color=white&rel=0`;
             imageViewer.querySelector('iframe').removeAttribute("style");
+            imageViewer.querySelector("div a.bouton").style.display = "none";
         } else {
+            imageViewer.querySelector("div a.bouton").removeAttribute("style");
             imageViewer.querySelector('iframe').style.display = "none";
         }
         imageViewer.querySelector("div .enSavoirPlus").style.display = "none";
@@ -148,9 +150,16 @@ enSavoirPlus.forEach((btn, index) => {
     });
 });
 
-imageViewer.addEventListener("click", function () {
-    this.classList.remove("visible");
+imageViewer.querySelector('.close').addEventListener("click", function () {
+    imageViewer.classList.remove("visible");
     imageViewer.querySelector('iframe').src = "";
+});
+
+imageViewer.addEventListener("click", function (evt) {
+    if (evt.target == imageViewer) {
+        imageViewer.classList.remove("visible");
+        imageViewer.querySelector('iframe').src = "";
+    }
 });
 
 document.addEventListener("keydown", function (evt) {

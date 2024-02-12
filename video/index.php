@@ -79,7 +79,7 @@ session_start();
                                     <span class="projetAnnee" hidden>2023</span>
                                     <p hidden>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride de chez Canon, le EOS R7. </p>
                                     <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
-                                    <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton btInvert" target="_blank">Voir sur Instagram</a>
+                                    <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a>
                                 </div>
                             </div>
                             <div class="projetVertical">
@@ -89,17 +89,17 @@ session_start();
                                     <span class="projetAnnee" hidden>2023</span>
                                     <p hidden>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production je maitrise 100% de la création de cette vidéo. </p>
                                     <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
-                                    <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton btInvert" target="_blank">Voir sur Instagram</a>
+                                    <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a>
                                 </div>
                             </div>
                             <div class="projetVertical">
                                 <img src="./images/julie.webp" alt="">
                                 <div>
-                                    <h3>Court-métrage "Julie !"</h3>
+                                    <h3>Court-métrage "Julie !"</h3>
                                     <span class="projetAnnee" hidden>2022</span>
-                                    <p hidden>"Julie !" est un court-métrage au format vertical réalisé dans le cadre du festival Courant 3D d'Angoulême. Sur ce projet, j'ai été Directeur de la photographie. J'ai également participé au montage et réalisé l'étalonnage. Par ailleurs j'étais photographe plateau durant le tournage.</p>
+                                    <p hidden>"Julie !" est un court-métrage au format vertical réalisé dans le cadre du festival Courant 3D d'Angoulême. Sur ce projet, j'ai été Directeur de la photographie. J'ai également participé au montage et réalisé l'étalonnage. Par ailleurs j'étais photographe plateau durant le tournage.</p>
                                     <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
-                                    <a href="https://youtu.be/T1gQjSipqpI" class="bouton btInvert" target="_blank">Voir sur YouTube</a>
+                                    <a href="https://youtu.be/T1gQjSipqpI" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
                                 </div>
                             </div>
                             <div class="projetVertical">
@@ -107,9 +107,9 @@ session_start();
                                 <div>
                                     <h3>Court-métrage / clip "Long Way To Go"</h3>
                                     <span class="projetAnnee" hidden>2022</span>
-                                    <p hidden>Pour cette vidéo réalisée en vertical pour le festival Courant 3D, j'ai été cadreur et photographe plateau.</p>
+                                    <p hidden>Pour cette vidéo réalisée en vertical pour le festival Courant 3D, j'ai été cadreur et photographe plateau.</p>
                                     <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
-                                    <a href="https://youtu.be/fjDIPealt2o" class="bouton btInvert" target="_blank">Voir sur YouTube</a>
+                                    <a href="https://youtu.be/fjDIPealt2o" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
                                 </div>
                             </div>
 
