@@ -16,7 +16,7 @@ jobs:
         server: 185.171.202.140
         username: github
         password: ${{ secrets.PASSWORD }}
-        server-dir: './autodevportfolio/'
+        server-dir: './dev.quentinperou.fr/'
         exclude: |
           **/.git*
           **/.git*/**
