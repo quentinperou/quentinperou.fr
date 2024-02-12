@@ -51,6 +51,7 @@ session_start();
                 <a href="../photographie/" class="menuElement">Photographie</a>
                 <a href="#" class="menuElement selected">Vidéo</a>
                 <a href="../3d/" class="menuElement">3D</a>
+                <a href="../dev/" class="menuElement">DEV</a>
                 <!-- <a href="#contact" class="menuElement">Contact</a> -->
             </nav>
             <div class="burgerMenu " title="Menu">
