@@ -76,8 +76,9 @@ session_start();
                                 <img src="./images/video canon r7.jpg" alt="">
                                 <div>
                                     <h3>Présentation produit : Canon R7</h3>
-                                    <span class="projetAnnee">2023</span>
-                                    <p>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride de chez Canon, le EOS R7. </p>
+                                    <span class="projetAnnee" hidden>2023</span>
+                                    <p hidden>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride de chez Canon, le EOS R7. </p>
+                                    <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
                                     <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton btInvert" target="_blank">Voir sur Instagram</a>
                                 </div>
                             </div>
@@ -85,8 +86,9 @@ session_start();
                                 <img src="./images/video sony a6700.jpg" alt="">
                                 <div>
                                     <h3>Présentation produit : Sony a6700</h3>
-                                    <span class="projetAnnee">2023</span>
-                                    <p>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production je maitrise 100% de la création de cette vidéo. </p>
+                                    <span class="projetAnnee" hidden>2023</span>
+                                    <p hidden>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production je maitrise 100% de la création de cette vidéo. </p>
+                                    <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
                                     <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton btInvert" target="_blank">Voir sur Instagram</a>
                                 </div>
                             </div>
@@ -94,8 +96,9 @@ session_start();
                                 <img src="./images/julie.webp" alt="">
                                 <div>
                                     <h3>Court-métrage "Julie !"</h3>
-                                    <span class="projetAnnee">2022</span>
-                                    <p>"Julie !" est un court-métrage au format vertical réalisé dans le cadre du festival Courant 3D d'Angoulême. Sur ce projet, j'ai été Directeur de la photographie. J'ai également participé au montage et réalisé l'étalonnage. Par ailleurs j'étais photographe plateau durant le tournage.</p>
+                                    <span class="projetAnnee" hidden>2022</span>
+                                    <p hidden>"Julie !" est un court-métrage au format vertical réalisé dans le cadre du festival Courant 3D d'Angoulême. Sur ce projet, j'ai été Directeur de la photographie. J'ai également participé au montage et réalisé l'étalonnage. Par ailleurs j'étais photographe plateau durant le tournage.</p>
+                                    <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
                                     <a href="https://youtu.be/T1gQjSipqpI" class="bouton btInvert" target="_blank">Voir sur YouTube</a>
                                 </div>
                             </div>
@@ -103,8 +106,9 @@ session_start();
                                 <img src="./images/longWayToGo.webp" alt="">
                                 <div>
                                     <h3>Court-métrage / clip "Long Way To Go"</h3>
-                                    <span class="projetAnnee">2022</span>
-                                    <p>Pour cette vidéo réalisée en vertical pour le festival Courant 3D, j'ai été cadreur et photographe plateau.</p>
+                                    <span class="projetAnnee" hidden>2022</span>
+                                    <p hidden>Pour cette vidéo réalisée en vertical pour le festival Courant 3D, j'ai été cadreur et photographe plateau.</p>
+                                    <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
                                     <a href="https://youtu.be/fjDIPealt2o" class="bouton btInvert" target="_blank">Voir sur YouTube</a>
                                 </div>
                             </div>
@@ -119,6 +123,16 @@ session_start();
                         <path d="M0 0h24v24H0V0z" fill="none" />
                         <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" />
                     </svg>
+
+                    <div class="imageViewer videoViewer">
+                        <svg class="close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white">
+                            <rect transform="rotate(45)" ry="0" y="-1" x="4.3137083" height="2" width="14" id="rect1006" />
+                            <rect transform="rotate(-45)" ry="0" y="10.313708" x="-7" height="2" width="14" id="rect1006-5" />
+                        </svg>
+
+                        <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div></div>
+                    </div>
                     <script src="./gallerieVertical.js"></script>
                 </div>
             </div>

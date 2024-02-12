@@ -78,13 +78,13 @@ function checkDirection() {
     if (Math.abs(touchstartX - touchendX) > 50) {
         if (touchendX < touchstartX) {
             // console.log('swiped left!');
-            if (gallerieVerticalIndex < gallerieVerticalItemsLength ) {
+            if (gallerieVerticalIndex < gallerieVerticalItemsLength) {
                 gallerieVerticalIndex++;
                 console.log("gallerieVerticalIndex", gallerieVerticalIndex);
                 if (gallerieVerticalIndex == 1)
                     valeurTranslateX = valeurTranslateX - (gallerieVerticalItemWidth - valeurDiffProjetContainer / 2 - 2.5);
                 else if (gallerieVerticalIndex == gallerieVerticalItemsLength)
-                    valeurTranslateX = valeurTranslateX - gallerieVerticalItemWidth + valeurDiffProjetContainer/2 + 2.5;
+                    valeurTranslateX = valeurTranslateX - gallerieVerticalItemWidth + valeurDiffProjetContainer / 2 + 2.5;
                 else
                     valeurTranslateX = valeurTranslateX - gallerieVerticalContainerWidth + valeurDiffProjetContainer;
 
@@ -100,10 +100,10 @@ function checkDirection() {
                 if (gallerieVerticalIndex == 0)
                     valeurTranslateX = valeurTranslateX + (gallerieVerticalItemWidth - valeurDiffProjetContainer / 2 - 2.5);
                 else if (gallerieVerticalIndex == gallerieVerticalItemsLength - 1)
-                    valeurTranslateX = valeurTranslateX + gallerieVerticalItemWidth - valeurDiffProjetContainer/2 - 2.5;
+                    valeurTranslateX = valeurTranslateX + gallerieVerticalItemWidth - valeurDiffProjetContainer / 2 - 2.5;
                 else
                     valeurTranslateX = valeurTranslateX + gallerieVerticalContainerWidth - valeurDiffProjetContainer;
-               
+
 
                 console.log("valeurTranslateX", valeurTranslateX);
                 gallerieVertical.style.transform = 'translateX(' + valeurTranslateX + 'px)';
@@ -120,3 +120,42 @@ document.querySelector('.gallerieVertical-container').addEventListener('touchend
     touchendX = e.changedTouches[0].screenX
     checkDirection();
 });
+
+
+/******** GESTION DU En Savoir Plus ********/
+
+const enSavoirPlus = document.querySelectorAll('.projetVertical .enSavoirPlus');
+const imageViewer = document.querySelector(".imageViewer");
+
+enSavoirPlus.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        // btn.parentNode.classList.toggle('active');
+        imageViewer.querySelector("div").innerHTML = btn.parentNode.innerHTML;
+        imageViewer.querySelector("div").childNodes.forEach((child) => {
+            child.hidden = false;
+        });
+        let videoLink = btn.parentNode.querySelector('a.bouton').href.split("/");
+        console.log("videoLink", videoLink);
+
+        if (videoLink[2].startsWith("youtu.be")) {
+            imageViewer.querySelector('iframe').src = `https://www.youtube-nocookie.com/embed/${videoLink[videoLink.length - 1]}?showinfo=0&color=white&rel=0`;
+            imageViewer.querySelector('iframe').removeAttribute("style");
+        } else {
+            imageViewer.querySelector('iframe').style.display = "none";
+        }
+        imageViewer.querySelector("div .enSavoirPlus").style.display = "none";
+        imageViewer.classList.add("visible");
+    });
+});
+
+imageViewer.addEventListener("click", function () {
+    this.classList.remove("visible");
+    imageViewer.querySelector('iframe').src = "";
+});
+
+document.addEventListener("keydown", function (evt) {
+    if (evt.key == "Escape")
+        imageViewer.classList.remove("visible");
+    imageViewer.querySelector('iframe').src = "";
+});
+
