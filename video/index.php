@@ -66,12 +66,23 @@ session_start();
 
         <section id="projets">
             <h2>Mes réalisations</h2>
-            <div class="contenuSectionProjets" style="margin-top: 40px;">
-                <!-- <h3>Réalisations Verticales</h3> -->
+            <div class="contenuSectionProjets" style="margin-top: 30px;">
+                <h3 style="margin-bottom: 20px;">Format verticaux</h3>
                 <div class="contenuSectionProjetsVertical">
                     <div class="gallerieVertical-container">
                         <div class="gallerieVertical-item">
 
+                            <div class="projetVertical">
+                                <img src="./images/video noel csp.jpg" alt="">
+                                <div>
+                                    <h3>Vidéo de noël de Concept Store Photo</h3>
+                                    <span class="projetAnnee" hidden>2023</span>
+                                    <p hidden></p>
+                                    <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
+                                    <a href="https://youtube.com/shorts/S6PclI447Ig" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
+                                    <!-- <a href="https://www.instagram.com/reel/C0CNQTJqkpN/" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a> -->
+                                </div>
+                            </div>
                             <div class="projetVertical">
                                 <img src="./images/video canon r7.jpg" alt="">
                                 <div>
@@ -89,7 +100,8 @@ session_start();
                                     <span class="projetAnnee" hidden>2023</span>
                                     <p hidden>Une vidéo verticale pour la communication Instagram de mon employeur. Du cadrage à la post-production je maitrise 100% de la création de cette vidéo. </p>
                                     <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span>
-                                    <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a>
+                                    <a href="https://youtube.com/shorts/Kh52-sd8DKo" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
+                                    <!-- <a href="https://www.instagram.com/reel/CyneT-SqhQc" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a> -->
                                 </div>
                             </div>
                             <div class="projetVertical">
@@ -124,7 +136,7 @@ session_start();
                         <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z" />
                     </svg>
 
-                    <div class="imageViewer videoViewer">
+                    <div class="imageViewer videoVerticalViewer">
                         <svg class="close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white">
                             <rect transform="rotate(45)" ry="0" y="-1" x="4.3137083" height="2" width="14" id="rect1006" />
                             <rect transform="rotate(-45)" ry="0" y="10.313708" x="-7" height="2" width="14" id="rect1006-5" />
@@ -137,6 +149,12 @@ session_start();
                 </div>
             </div>
 
+            <h3 style="margin-top: 80px; width: 100%;">Format horizontaux</h3>
+            <style>
+                .projet:first-child {
+                    margin-top: 20px;
+                }
+            </style>
             <div class="contenuSectionProjets">
 
                 <!-- <div class="projet">
@@ -174,7 +192,8 @@ session_start();
                         <span class="projetAnnee">2022</span>
                         <p>Au cours de ma licence professionnelle à l'IUT d'Angoulême, j'ai pu réaliser un reportage sur le métier d'opérateur XR. A cette occasion je me suis rendu dans les studios de TSF à Paris avec Thomas Zych, Julie Patron et Benjamin Thouet afin de rencontrer les équipes de l'entreprise MADO XR. <br> Pour ce reportage <strong>j'ai réalisé les effets spéciaux</strong> de l'intoduction avec les logiciels Blender pour la 3D et After Effects pour le compositing. Je me suis également occupé de l'<strong>étalonnage</strong> de la vidéo ansi que des synthés pour lesquels j'ai créé une template d'animation Premiere Pro (.mogrt) sous After Effects.</p>
                         <p>Ce reportage a été récompensé d'un <strong>Clap d'Argent</strong> au concours national "Je Filme Le Métier Qui Me Plaît" en juin 2022.</p>
-                        <a href="https://parcoursmetiers.tv/video/13143-realite-ou-illusion" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/QEnCnQl_C3Q" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://parcoursmetiers.tv/video/13143-realite-ou-illusion" class="bouton" target="_blank">Site officiel</a>
                     </div>
                 </div>
 
@@ -277,6 +296,16 @@ session_start();
                 </div>
 
             </div>
+
+            <div class="imageViewer videoViewer">
+                <svg class="close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white">
+                    <rect transform="rotate(45)" ry="0" y="-1" x="4.3137083" height="2" width="14" id="rect1006" />
+                    <rect transform="rotate(-45)" ry="0" y="10.313708" x="-7" height="2" width="14" id="rect1006-5" />
+                </svg>
+
+                <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <script src="./video.js"></script>
         </section>
 
         <?php require_once('../require/contact.html'); ?>
