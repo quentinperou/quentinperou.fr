@@ -13,10 +13,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: 185.171.202.140
-        username: github
-        password: ${{ secrets.PASSWORD }}
-        server-dir: './quentinperou.fr/'
+        server: ftp.cluster029.hosting.ovh.net
+        username: ${{ secrets.OVH_ID }}
+        password: ${{ secrets.OVH_PASSWORD }}
+        server-dir: './www/'
         exclude: |
           **/.git*
           **/.git*/**
