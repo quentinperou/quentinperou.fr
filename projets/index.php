@@ -70,15 +70,16 @@ session_start();
 
                 <div class="projet">
                     <div>
-                        <img src="./images/">
+                        <img src="./images/bigCineLive.png">
                     </div>
                     <div>
                         <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
                         <span class="projetType">Graphisme & Motion Design / OBS Studio / Développement WEB</span>
                         <span class="projetAnnee">2023</span>
-                        <p>voila</p>
+                        <p>Pour l'émission <i>BigCineLive</i> diffusée sur Twitch créé par Benjamin Thouet et Emmanuel Anthony j'ai été chargé de créer les overlays de l'émission ainsi que les miniatures. </p>
                         <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank">Un replay sur YouTube</a>
                         <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
+                        <a href="https://youtu.be/bGtx2jMKf9o" class="bouton" target="_blank">Le waiting screen</a>
                     </div>
                 </div>
 
