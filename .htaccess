@@ -1,15 +1,16 @@
-###Empecher le listage du contenu d’un repertoire
+### Empecher le listage du contenu d’un repertoire
 Options -Indexes
 
-###Specifier un fichier d’index different#
+### Specifier un fichier d’index different#
 # DirectoryIndex accueil.html
 
-#Redirect http to https
 RewriteEngine On
+
+### Redirect http to https
 # RewriteCond %{HTTPS} off
 # RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
-###Redirige les requetes vers les fichiers correspondants
+### Redirige les requetes vers les fichiers correspondants
 RewriteRule mentions-legales$ mentions-legales.php
 RewriteRule legacy$ mentions-legales.php
 RewriteRule legal$ mentions-legales.php
@@ -18,7 +19,7 @@ RewriteRule photo$ ./photographie
 
 # RewriteRule 3d https://quentinperou.dyjix.fr/quentinperou.fr/3d/
 
-###Redirections vers les reseaux sociaux et autres
+### Redirections vers les reseaux sociaux et autres
 RewriteRule insta https://www.instagram.com/quentinperou/
 RewriteRule insta3d https://www.instagram.com/byquentin_/
 
