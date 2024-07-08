@@ -82,14 +82,13 @@ session_start();
                 </p>
 
                 <h4>ARTICLE 1 : L’ÉDITEUR</h4>
-                <p>L’édition et la direction de la publication du site www.quentinperou.fr est assurée par Quentin PEROU, domicilié à 44300 NANTES, dont l'adresse e-mail quentinperou.contact@gmail.com.</p>
+                <p>L’édition et la direction de la publication du site www.quentinperou.fr est assurée par Quentin PEROU, domicilié à 44300 NANTES, dont l'adresse e-mail est quentinperou.contact@gmail.com.</p>
 
                 <h4>ARTICLE 2 : L’HÉBERGEUR</h4>
                 <p>L'hébergeur du site quentinperou.fr est la Société OVH, dont le siège social est situé au 2 rue Kellermann – BP 80157 59053 ROUBAIX CEDEX 1.</p>
 
                 <h4>ARTICLE 3 : ACCÈS AU SITE</h4>
-                <p>
-                    Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption programmée ou non et pouvant découlant d’une nécessité de maintenance.
+                <p>Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption programmée ou non et pouvant découler d’une nécessité de maintenance.
                     <br>
                     En cas de modification, interruption ou suspension des services le site quentinperou.fr ne saurait être tenu responsable.
                 </p>
@@ -98,8 +97,7 @@ session_start();
                 <p>Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans la mesure où il ne collecte aucune donnée concernant les utilisateurs.</p>
 
                 <h4>ARTICLE 5 : COOKIES</h4>
-                <p>
-                    L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son logiciel de navigation.
+                <p>L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son logiciel de navigation.
                     En naviguant sur le site, il les accepte.
                     <br>
                     Un cookie est un élément qui ne permet pas d’identifier l’Utilisateur mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site Internet. L’Utilisateur pourra désactiver ce cookie par l’intermédiaire des paramètres figurant au sein de son logiciel de navigation.
