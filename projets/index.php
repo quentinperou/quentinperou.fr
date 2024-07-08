@@ -74,19 +74,22 @@ session_start();
                     </div>
                     <div>
                         <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
-                        <span class="projetType">Graphisme & Motion Design / OBS Studio / Développement WEB</span>
+                        <span class="projetType">Graphisme & Motion Design / 3D / OBS Studio / Développement WEB</span>
                         <span class="projetAnnee">2023</span>
-                        <p>Pour l'émission <i>BigCineLive</i> diffusée sur Twitch créé par Benjamin Thouet et Emmanuel Anthony j'ai été chargé de créer les overlays de l'émission ainsi que les miniatures. </p>
+                        <p>Pour l'émission <i>BigCineLive</i> diffusée sur Twitch créé par Benjamin Thouet et Emmanuel Anthony, j'ai été chargé de créer les overlays de l'émission ainsi que les miniatures. </p>
+                        <p>Pour les écrans de début et de fin de stream, j'ai créé un décor en 3D sur Blender puis exporté des prises de vues vers After Effects afin d'ajouter le motion design comme le texte et la bordure.</p>
+                        <a href="https://youtu.be/bGtx2jMKf9o" class="bouton" target="_blank">Le waiting screen</a>
+                        <p>J'ai également travaillé les scènes, c'est-à-dire les différents habillages du stream, sur le logiciel de diffusion OBS Studio.</p>
+                        <p>Les miniatures ont été faites sur Photoshop en assemblant divers éléments ainsi que des photos des chroniqueurs présents sur l'émission en question. </p>
                         <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank">Un replay sur YouTube</a>
                         <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
-                        <a href="https://youtu.be/bGtx2jMKf9o" class="bouton" target="_blank">Le waiting screen</a>
                     </div>
                 </div>
 
                 <div class="projet">
                     <div class="projet-image">
                         <img src="./images/preview-HighlightedChat.webp">
-                        <img class="projet-background" src="./images/preview-HighlightedChat.png">
+                        <img class="projet-background" src="./images/preview-HighlightedChat.webp">
                     </div>
                     <div>
                         <h3>Twitch-HighlightedChat</h3>
