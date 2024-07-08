@@ -68,6 +68,20 @@ session_start();
             <!-- <p>Sur cette page vous trouverez mes différents projets dans d'autre dommaines que la vidéo ou la photographie.</p> -->
             <div class="contenuSectionProjets">
 
+            <div class="projet">
+                    <div>
+                        <img src="./images/">
+                    </div>
+                    <div>
+                        <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
+                        <span class="projetType">Graphisme & Motion Design / OBS Studio / Développement WEB</span>
+                        <span class="projetAnnee">2023</span>
+                        <p>voila</p>
+                        <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank">Un replay sur YouTube</a>
+                        <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
+                    </div>
+                </div>
+
                 <div class="projet">
                     <div class="projet-image">
                         <img src="./images/preview-HighlightedChat.png">
@@ -83,20 +97,6 @@ session_start();
                         <p>Afin de mettre à disposition au plus grand nombre de personnes, j'ai choisi de rédiger l'interface en anglais.</p>
                         <a href="https://github.com/quentinperou/Twitch-HighlightedChat" class="bouton" target="_blank">Lien du GitHub</a>
                         <a href="https://highlightedchat.quentinperou.fr/" class="bouton" target="_blank">Lien du site</a>
-                    </div>
-                </div>
-
-                <div class="projet">
-                    <div>
-                        <img src="./images/">
-                    </div>
-                    <div>
-                        <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
-                        <span class="projetType">Graphisme & Motion Design / OBS Studio / Développement WEB</span>
-                        <span class="projetAnnee">2023</span>
-                        <p>voila</p>
-                        <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank">Un replay sur YouTube</a>
-                        <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
                     </div>
                 </div>
 

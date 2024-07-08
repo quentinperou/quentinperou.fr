@@ -19,13 +19,13 @@ html {
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: red;
-  background: yellow;
+  color: white;
+  background: #525252;
 }
 
 ::selection {
-  color: red;
-  background: yellow;
+  color: white;
+  background: #525252;
 }
 
 /*********************************************************/
@@ -982,7 +982,7 @@ footer p {
   }
 
   .projetVertical {
-    width: 85%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 350px) {
