@@ -27,8 +27,7 @@ session_start();
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
 
     <!--    TYPOGRAPHIE    -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <?php require_once('../require/typo.html'); ?>
 
     <!--    CSS    -->
     <link rel="stylesheet" href="../style.css" type="text/css" />
@@ -51,7 +50,7 @@ session_start();
                 <a href="../photographie/" class="menuElement">Photographie</a>
                 <a href="../video/" class="menuElement">Vidéo</a>
                 <a href="../3d/" class="menuElement">3D</a>
-                <a href="#" class="menuElement selected">DEV</a>
+                <a href="../projets/" class="menuElement selected">Projets</a>
                 <!-- <a href="#contact" class="menuElement">Contact</a> -->
             </nav>
             <div class="burgerMenu " title="Menu">
@@ -66,14 +65,17 @@ session_start();
 
         <section id="projets">
             <h2>Mes projets</h2>
+            <!-- <p>Sur cette page vous trouverez mes différents projets dans d'autre dommaines que la vidéo ou la photographie.</p> -->
             <div class="contenuSectionProjets">
 
                 <div class="projet">
-                    <div>
-                        <img src="./images/preview.png">
+                    <div class="projet-image">
+                        <img src="./images/preview-HighlightedChat.png">
+                        <img class="projet-background" src="./images/preview-HighlightedChat.png">
                     </div>
                     <div>
                         <h3>Twitch-HighlightedChat</h3>
+                        <span class="projetType">Développement WEB</span>
                         <span class="projetAnnee">2021</span>
                         <p>Sur Twitch, il existe une fonctionnalité appelée les points de chaîne, que l'on accumule au fur et à mesure que l'on regarde une chaîne en live. Et avec ces points de chaîne, on peut récupérer des récompense, notamment un message mis en avant dans le tchat.</p>
                         <p>En 2020, alors que je regardais le live du streamer Ponce sur Twitch, je me suis rendu compte que les streamers rataient souvent ses fameux messages et que les viewers les copiait-collait jusqu'à ce que le streamer le voie pour que les points n'aient pas été dépensés pour rien.</p>
@@ -84,11 +86,25 @@ session_start();
                     </div>
                 </div>
 
-            </div>
-            <div style="text-align: center; margin-top:20px;">
-                <a href="https://github.com/quentinperou" class="bouton btFill" target="_blank">Mon GitHub</a>
+                <div class="projet">
+                    <div>
+                        <img src="./images/">
+                    </div>
+                    <div>
+                        <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
+                        <span class="projetType">Graphisme & Motion Design / OBS Studio / Développement WEB</span>
+                        <span class="projetAnnee">2023</span>
+                        <p>voila</p>
+                        <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank">Un replay sur YouTube</a>
+                        <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
+                    </div>
+                </div>
+
 
             </div>
+            <!-- <div style="text-align: center; margin-top:20px;">
+                <a href="https://github.com/quentinperou" class="bouton btFill" target="_blank">Mon GitHub</a>
+            </div> -->
         </section>
 
         <?php require_once('../require/contact.html'); ?>

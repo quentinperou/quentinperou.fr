@@ -133,17 +133,17 @@
 
     /******** GESTION DU En Savoir Plus ********/
 
-    const enSavoirPlus = document.querySelectorAll('.projetVertical .enSavoirPlus');
+    const enSavoirPlus = document.querySelectorAll('.projetVertical');
     const imageViewer = document.querySelector(".videoVerticalViewer");
 
     enSavoirPlus.forEach((btn, index) => {
         btn.addEventListener('click', () => {
             // btn.parentNode.classList.toggle('active');
-            imageViewer.querySelector("div").innerHTML = btn.parentNode.innerHTML;
+            imageViewer.querySelector("div").innerHTML = btn.querySelector('div').innerHTML;
             imageViewer.querySelector("div").childNodes.forEach((child) => {
                 child.hidden = false;
             });
-            let videoLink = btn.parentNode.querySelector('a.bouton').href.split("/");
+            let videoLink = btn.querySelector('div a.bouton').href.split("/");
             // console.log("videoLink", videoLink);
 
             if (videoLink[2].startsWith("youtu")) {
@@ -154,7 +154,7 @@
                 imageViewer.querySelector("div a.bouton").removeAttribute("style");
                 imageViewer.querySelector('iframe').style.display = "none";
             }
-            imageViewer.querySelector("div .enSavoirPlus").style.display = "none";
+            // imageViewer.querySelector("div .enSavoirPlus").style.display = "none";
             imageViewer.classList.add("visible");
         });
     });

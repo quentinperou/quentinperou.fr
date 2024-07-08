@@ -17,6 +17,17 @@ html {
   --color-gray-1-hover: #3b3b3b;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
 /*********************************************************/
 /*                    SCROLLBAR CHROME                   */
 /*********************************************************/
@@ -149,8 +160,10 @@ header {
 
 .websiteLogo .titreEnteteSite {
   font-size: 40px;
-  font-family: "Amatic SC", cursive;
-  /* text-transform: uppercase; */
+  /* font-family: "Amatic SC", cursive; */
+
+  font-family: "Shadows Into Light", cursive;
+  font-size: 35px;
 }
 
 .menuElement {
@@ -204,15 +217,16 @@ header {
 /*                        ACCUEIL                        */
 /*********************************************************/
 #accueil {
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--hauteur_header));
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .fondAcceuil {
   position: absolute;
-  top: 0;
+  top: var(--hauteur_header);
   left: 0;
   width: 100%;
   height: 100%;
@@ -223,7 +237,7 @@ header {
 
   position: fixed;
   z-index: -1;
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--hauteur_header) * 2);
 }
 .fondAcceuil > * {
   object-fit: cover;
@@ -238,25 +252,54 @@ header {
 #accueil div:first-child {
   z-index: 2;
   position: absolute;
-  bottom: 10%;
-  right: 5%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -40%);
 }
 
-#accueil p {
+#accueil p,
+#accueil h1 {
   color: white;
-  text-align: end;
+  text-align: center;
   margin: 20px 0;
   font-size: 2.5rem;
-  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 40px rgba(49, 49, 49, 1);
+  font-family: "Shadows Into Light", cursive;
+  line-height: 100%;
 }
 
 #accueil .titreAccueil {
-  font-size: 7rem;
-  font-family: "Amatic SC", cursive;
+  font-size: 6.5rem;
+  /* font-family: "Amatic SC", cursive; */
+  font-family: "Shadows Into Light", cursive;
+  font-weight: normal;
+  opacity: 0;
+  animation: animTitle 1.3s forwards;
 }
-/* .sousTitreAccueil{
-  text-transform: uppercase;
-} */
+@keyframes animTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sousTitreAccueil {
+  /* text-transform: uppercase; */
+  opacity: 0;
+  animation: fadeInTitle 1.2s forwards 350ms;
+}
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .scrollme {
   animation: scrollol 5s infinite ease-in-out;
@@ -521,6 +564,13 @@ figcaption::first-letter {
 .projetAnnee {
   font-style: italic;
   font-size: 0.9rem;
+  display: block;
+}
+
+.projetType {
+  font-style: italic;
+  font-size: 0.9rem;
+  display: block;
 }
 
 .projet iframe {
@@ -533,6 +583,27 @@ figcaption::first-letter {
   height: inherit !important;
   min-height: inherit !important;
   aspect-ratio: 16/9;
+}
+
+/* ambilight sur les projets*/
+.projet-image {
+  position: relative;
+  overflow: hidden;
+}
+.projet-image img:not(.projet-background) {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.projet-background {
+  filter: blur(60px);
+  transform: scale(3);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /***************** PROJETS 3D *****************/
@@ -586,6 +657,7 @@ video:fullscreen {
   position: relative;
   width: calc((100% - 5px * 4) / 5);
   aspect-ratio: 9/16;
+  cursor: pointer;
 }
 
 .projetVertical:not(:last-child) {

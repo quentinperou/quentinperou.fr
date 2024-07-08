@@ -27,8 +27,7 @@ session_start();
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
     <!--    TYPOGRAPHIE    -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <?php require_once('require/typo.html'); ?>
 
     <!--    CSS    -->
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -51,7 +50,7 @@ session_start();
                 <a href="./photographie/" class="menuElement">Photographie</a>
                 <a href="./video/" class="menuElement">Vidéo</a>
                 <a href="./3d/" class="menuElement">3D</a>
-                <a href="./dev/" class="menuElement">DEV</a>
+                <a href="./projets/" class="menuElement">Projets</a>
                 <!-- <a href="#contact" class="menuElement">Contact</a> -->
             </nav>
             <div class="burgerMenu " title="Menu">
@@ -64,7 +63,7 @@ session_start();
 
     <section id="accueil">
         <div>
-            <p class="titreAccueil"><strong>Quentin Pérou</strong></p>
+            <h1 class="titreAccueil">Quentin Pérou</h1>
             <p class="sousTitreAccueil">Photographe et vidéaste</p>
         </div>
         <a href="#projets" class="scrollme">
@@ -87,14 +86,22 @@ session_start();
                 return check;
             };
             console.log("mobile device ", mobileAndTabletCheck());
-            if (mobileAndTabletCheck() == false)
-                document.querySelector('#videoH').play();
+            // if (mobileAndTabletCheck() == false)
+            document.querySelector('#videoH').play();
 
             //zoom dans la vidéo au scroll
             window.addEventListener('scroll', function() {
                 var scroll = window.pageYOffset;
                 var video = document.querySelector('.fondAcceuil');
                 video.style.transform = 'scale(' + map_range(scroll, 0, window.innerHeight, 1, 1.6) + ')';
+
+                // parallax sur le titre
+                // let titre = document.querySelector('.titreAccueil');
+                // titre.style.transform = 'translateY(' + map_range(scroll, 0, window.innerHeight, 0, 50) + 'px)';
+
+                // parallax sur le sous-titre
+                // let sousTitre = document.querySelector('.sousTitreAccueil');
+                // sousTitre.style.transform = 'translateY(' + map_range(scroll, 0, window.innerHeight, 0,50) + 'px)';
             });
 
             function map_range(value, low1, high1, low2, high2) {
