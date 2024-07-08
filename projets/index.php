@@ -70,7 +70,7 @@ session_start();
 
                 <div class="projet">
                     <div>
-                        <img src="./images/bigCineLive.png">
+                        <img src="./images/bigCineLive.webp">
                     </div>
                     <div>
                         <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
@@ -85,7 +85,7 @@ session_start();
 
                 <div class="projet">
                     <div class="projet-image">
-                        <img src="./images/preview-HighlightedChat.png">
+                        <img src="./images/preview-HighlightedChat.webp">
                         <img class="projet-background" src="./images/preview-HighlightedChat.png">
                     </div>
                     <div>
