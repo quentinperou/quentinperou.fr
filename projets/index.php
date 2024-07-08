@@ -68,7 +68,7 @@ session_start();
             <!-- <p>Sur cette page vous trouverez mes différents projets dans d'autre dommaines que la vidéo ou la photographie.</p> -->
             <div class="contenuSectionProjets">
 
-            <div class="projet">
+                <div class="projet">
                     <div>
                         <img src="./images/">
                     </div>

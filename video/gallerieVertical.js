@@ -120,14 +120,17 @@
         }
     }
 
-    document.querySelector('.gallerieVertical-container').addEventListener('touchstart', e => {
-        touchstartX = e.changedTouches[0].screenX
-    });
+    // active le swipe sur mobile (valeur de 550px à adapter selon le CSS)
+    if (window.innerWidth < 550) {
+        document.querySelector('.gallerieVertical-container').addEventListener('touchstart', e => {
+            touchstartX = e.changedTouches[0].screenX
+        });
 
-    document.querySelector('.gallerieVertical-container').addEventListener('touchend', e => {
-        touchendX = e.changedTouches[0].screenX
-        checkDirection();
-    });
+        document.querySelector('.gallerieVertical-container').addEventListener('touchend', e => {
+            touchendX = e.changedTouches[0].screenX
+            checkDirection();
+        });
+    }
 
 
 
