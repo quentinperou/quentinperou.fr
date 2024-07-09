@@ -22,7 +22,6 @@ jobs:
           **/.git*/**
           **.gitignore
           **/README.md
-          **/apercu-portfolio-2024-02.webp
           **/.vscode/
           **/.vscode/**
           **/.github/

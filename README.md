@@ -2,9 +2,9 @@
 
 Code de mon portfolio : https://quentinperou.fr/
 
-Version : Février 2024
+Version : Juillet 2024
 
-![home page](apercu-portfolio-2024-02.webp)
+![home page](.github/apercu-portfolio-2024-07.webp)
 
 <br>
 
@@ -58,5 +58,5 @@ Version : Février 2024
 ### **A ajouter dans les iframe Youtube**
 
 ```
-?showinfo=0&color=white&rel=0
+?showinfo=0&color=white&rel=0&vq=hd1080 &autoplay=1
 ```
