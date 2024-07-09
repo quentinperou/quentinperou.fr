@@ -72,7 +72,17 @@ session_start();
                         <div class="gallerieVertical-item">
 
                             <div class="projetVertical">
-                                <img src="./images/video noel csp.jpg" alt="">
+                                <img src="./images/video-Bienvenue-concept-Store-Photo.webp" alt="">
+                                <div>
+                                    <h3>Vidéo de présentation du magasin Concept Store Photo Nantes</h3>
+                                    <span class="projetAnnee" hidden>2023</span>
+                                    <p hidden></p>
+                                    <a href="https://youtube.com/shorts/xuhSALlj_Xg" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
+                                    <a href="https://www.instagram.com/reel/C524S1rqBjv/" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a>
+                                </div>
+                            </div>
+                            <div class="projetVertical">
+                                <img src="./images/video-noel-csp.webp" alt="">
                                 <div>
                                     <h3>Vidéo de noël de Concept Store Photo</h3>
                                     <span class="projetAnnee" hidden>2023</span>
@@ -83,7 +93,7 @@ session_start();
                                 </div>
                             </div>
                             <div class="projetVertical">
-                                <img src="./images/video canon r7.jpg" alt="">
+                                <img src="./images/video-canon-r7.webp" alt="">
                                 <div>
                                     <h3>Présentation produit : Canon R7</h3>
                                     <span class="projetAnnee" hidden>2023</span>
@@ -93,7 +103,7 @@ session_start();
                                 </div>
                             </div>
                             <div class="projetVertical">
-                                <img src="./images/video sony a6700.jpg" alt="">
+                                <img src="./images/video-sony-a6700.webp" alt="">
                                 <div>
                                     <h3>Présentation produit : Sony a6700</h3>
                                     <span class="projetAnnee" hidden>2023</span>
@@ -177,6 +187,7 @@ session_start();
                         <h3>Vidéo "4 ANNÉES VUES DU CIEL"</h3>
                         <span class="projetAnnee">2023</span>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
+                        <p>Les plans ont été filmés par mes soins avec un drone DJI Mavic Air puis montés sur le logiciel Adobe Premiere Pro.</p>
                         <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo</a>
                     </div>
                 </div>
