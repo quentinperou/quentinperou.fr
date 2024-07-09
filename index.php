@@ -114,7 +114,7 @@ session_start();
 
         <section id="projets">
             <h2>Mon showreel !</h2>
-            <iframe id="showreel" src="https://www.youtube-nocookie.com/embed/t_VYn4xi-I4?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="showreel" src="https://www.youtube-nocookie.com/embed/t_VYn4xi-I4?showinfo=0&rel=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <style>
                 #showreel {
                     /* height: 550px; */
