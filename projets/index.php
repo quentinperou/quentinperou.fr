@@ -69,8 +69,9 @@ session_start();
             <div class="contenuSectionProjets">
 
                 <div class="projet">
-                    <div>
+                    <div class="projet-image">
                         <img src="./images/bigCineLive.webp">
+                        <img class="projet-background" src="./images/bigCineLive.webp">
                     </div>
                     <div>
                         <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
