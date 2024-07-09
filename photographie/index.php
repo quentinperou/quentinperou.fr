@@ -41,7 +41,7 @@ session_start();
         <div class="enteteContainer">
             <div class="websiteLogo">
                 <a href="../" title="Revenir à l'accueil">
-                    <span class="titreEnteteSite">Quentin Pérou</span>
+                    <span class="titreEnteteSite">QuentinPérou</span>
                 </a>
             </div>
             <nav class="menu">

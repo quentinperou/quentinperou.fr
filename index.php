@@ -34,7 +34,6 @@ session_start();
 
     <!--    JS    -->
     <script src="script.js"></script>
-
 </head>
 
 <body>

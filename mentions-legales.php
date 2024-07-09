@@ -27,8 +27,7 @@ session_start();
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
     <!--    TYPOGRAPHIE    -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <?php require_once('require/typo.html'); ?>
 
     <!--    CSS    -->
     <link rel="stylesheet" href="./style.css" type="text/css" />
@@ -42,14 +41,15 @@ session_start();
         <div class="enteteContainer">
             <div class="websiteLogo">
                 <a href="./" title="Revenir à l'accueil">
-                    <span class="titreEnteteSite">Quentin Pérou</span>
+                    <span class="titreEnteteSite">QuentinPérou</span>
                 </a>
             </div>
             <nav class="menu">
                 <a href="./" class="menuElement">Accueil</a>
                 <a href="./photographie/" class="menuElement">Photographie</a>
                 <a href="./video/" class="menuElement">Vidéo</a>
-                <!-- <a href="#contact" class="menuElement">Contact</a> -->
+                <a href="./3d/" class="menuElement">3D</a>
+                <a href="./projets/" class="menuElement">Projets</a>
             </nav>
             <div class="burgerMenu " title="Menu">
                 <div class="bar1"></div>
