@@ -150,7 +150,7 @@
             // console.log("videoLink", videoLink);
 
             if (videoLink[2].startsWith("youtu")) {
-                imageViewer.querySelector('iframe').src = `https://www.youtube-nocookie.com/embed/${videoLink[videoLink.length - 1]}?showinfo=0&color=white&rel=0`;
+                imageViewer.querySelector('iframe').src = `https://www.youtube-nocookie.com/embed/${videoLink[videoLink.length - 1]}?showinfo=0&color=white&rel=0&vq=hd1080&autoplay=1`;
                 imageViewer.querySelector('iframe').removeAttribute("style");
                 imageViewer.querySelector("div a.bouton").style.display = "none";
             } else {
