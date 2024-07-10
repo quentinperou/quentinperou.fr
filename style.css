@@ -935,6 +935,21 @@ footer p {
   .projetVertical {
     width: calc((100% - 5px * 1) / 2);
   }
+
+  .contenuSectionProjetsVertical .videoVerticalViewer {
+    flex-direction: column;
+    padding: 0;
+  }
+  .contenuSectionProjetsVertical .videoVerticalViewer iframe {
+    display: none;
+  }
+  .contenuSectionProjetsVertical .videoVerticalViewer a.bouton {
+    display: inline-block !important;
+  }
+  .contenuSectionProjetsVertical .videoVerticalViewer div {
+    width: 100%;
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -950,21 +965,6 @@ footer p {
   }
   .contenuSectionProjetsVertical .gallerie_nav {
     display: none !important;
-  }
-
-  .contenuSectionProjetsVertical .videoVerticalViewer {
-    flex-direction: column;
-    padding: 0;
-  }
-  .contenuSectionProjetsVertical .videoVerticalViewer iframe {
-    display: none;
-  }
-  .contenuSectionProjetsVertical .videoVerticalViewer a.bouton {
-    display: inline-block !important;
-  }
-  .contenuSectionProjetsVertical .videoVerticalViewer div {
-    width: 100%;
-    padding: 2rem;
   }
 }
 
