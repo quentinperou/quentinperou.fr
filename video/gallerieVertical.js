@@ -81,9 +81,11 @@
     let touchstartX = 0
     let touchendX = 0
     var valeurTranslateX = 0;
+    let touchstartY = 0
+    let touchendY = 0
     function checkDirection() {
         // console.log("valeurDiffProjetContainer", (gallerieVerticalContainerWidth - gallerieVerticalItemWidth));
-        if (Math.abs(touchstartX - touchendX) > 50) {
+        if ((Math.abs(touchstartX - touchendX) > 50) && (Math.abs(touchstartY - touchendY) < 150)) {
             if (touchendX < touchstartX) {
                 // console.log('swiped left!');
                 if (gallerieVerticalIndex < gallerieVerticalItemsLength) {
@@ -123,11 +125,13 @@
     // active le swipe sur mobile (valeur de 550px à adapter selon le CSS)
     if (window.innerWidth < 550) {
         document.querySelector('.gallerieVertical-container').addEventListener('touchstart', e => {
-            touchstartX = e.changedTouches[0].screenX
+            touchstartX = e.changedTouches[0].screenX;
+            touchstartY = e.changedTouches[0].screenY;
         });
 
         document.querySelector('.gallerieVertical-container').addEventListener('touchend', e => {
-            touchendX = e.changedTouches[0].screenX
+            touchendX = e.changedTouches[0].screenX;
+            touchendY = e.changedTouches[0].screenY;
             checkDirection();
         });
     }
