@@ -19,7 +19,7 @@ session_start();
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@quentinperou" />
     <meta property="og:url" content="https://quentinperou.fr" />
-    <meta property="og:title" content="Quentin Pérou | DEV" />
+    <meta property="og:title" content="Quentin Pérou | Projets" />
     <meta property="og:description" content="Portfolio de Quentin Pérou, photographe et vidéaste." />
     <meta property="og:image" content="https://quentinperou.fr/images/photo_profil-4-c.jpg">
 
@@ -78,10 +78,10 @@ session_start();
                         <span class="projetAnnee">2023</span>
                         <p>Pour l'émission <i>BigCineLive</i> diffusée sur Twitch créé par Benjamin Thouet et Emmanuel Anthony, j'ai été chargé de créer les overlays de l'émission ainsi que les miniatures. </p>
                         <p>Pour les écrans de début et de fin de stream, j'ai créé un décor en 3D sur Blender puis exporté des prises de vues vers After Effects afin d'ajouter le motion design comme le texte et la bordure.</p>
-                        <a href="https://youtu.be/bGtx2jMKf9o" class="bouton" target="_blank">Le waiting screen</a>
+                        <a href="https://youtu.be/bGtx2jMKf9o" class="bouton" target="_blank" youtubePlayer>Le waiting screen</a>
                         <p>J'ai également travaillé les scènes, c'est-à-dire les différents habillages du stream, sur le logiciel de diffusion OBS Studio.</p>
                         <p>Les miniatures ont été faites sur Photoshop en assemblant divers éléments ainsi que des photos des chroniqueurs présents sur l'émission en question. </p>
-                        <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank">Un replay sur YouTube</a>
+                        <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank" youtubePlayer>Un replay sur YouTube</a>
                         <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
                     </div>
                 </div>
@@ -95,9 +95,9 @@ session_start();
                         <h3>Twitch-HighlightedChat</h3>
                         <span class="projetType">Développement WEB</span>
                         <span class="projetAnnee">2021</span>
-                        <p>Sur Twitch, il existe une fonctionnalité appelée les points de chaîne, que l'on accumule au fur et à mesure que l'on regarde une chaîne en live. Et avec ces points de chaîne, on peut récupérer des récompense, notamment un message mis en avant dans le tchat.</p>
-                        <p>En 2020, alors que je regardais le live du streamer Ponce sur Twitch, je me suis rendu compte que les streamers rataient souvent ses fameux messages et que les viewers les copiait-collait jusqu'à ce que le streamer le voie pour que les points n'aient pas été dépensés pour rien.</p>
-                        <p>J'ai donc développer un petit site qui une fois relier au tchat de son choix, afficherai uniquement les messages en avant. </p>
+                        <p>Sur Twitch, il existe une fonctionnalité appelée les points de chaîne, que l'on accumule au fur et à mesure que l'on regarde une chaîne en live. Et avec ces points de chaîne, on peut récupérer des récompenses, notamment un message mis en avant dans le tchat.</p>
+                        <p>En 2020, alors que je regardais le live du streamer Ponce sur Twitch, je me suis rendu compte que les streamers rataient souvent ses fameux messages et que les viewers les copiait-collait jusqu'à ce que le streamer le vois pour que les points n'aient pas été dépensés pour rien.</p>
+                        <p>J'ai donc développé un petit site qui, une fois relié au tchat de son choix, affichera uniquement les messages en avant. </p>
                         <p>Afin de mettre à disposition au plus grand nombre de personnes, j'ai choisi de rédiger l'interface en anglais.</p>
                         <a href="https://github.com/quentinperou/Twitch-HighlightedChat" class="bouton" target="_blank">Lien du GitHub</a>
                         <a href="https://highlightedchat.quentinperou.fr/" class="bouton" target="_blank">Lien du site</a>
@@ -109,6 +109,16 @@ session_start();
             <!-- <div style="text-align: center; margin-top:20px;">
                 <a href="https://github.com/quentinperou" class="bouton btFill" target="_blank">Mon GitHub</a>
             </div> -->
+
+            <div class="imageViewer videoViewer">
+                <svg class="close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white">
+                    <rect transform="rotate(45)" ry="0" y="-1" x="4.3137083" height="2" width="14" id="rect1006" />
+                    <rect transform="rotate(-45)" ry="0" y="10.313708" x="-7" height="2" width="14" id="rect1006-5" />
+                </svg>
+
+                <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <script src="../video/video.js"></script>
         </section>
 
         <?php require_once('../require/contact.html'); ?>

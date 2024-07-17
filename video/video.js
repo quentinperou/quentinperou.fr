@@ -1,7 +1,7 @@
 (function () {
     /******** GESTION de l'affichage des videos ********/
 
-    const boutonVideo = document.querySelectorAll('.projet a.bouton');
+    const boutonVideo = document.querySelectorAll('[youtubePlayer]');
     const videoViewer = document.querySelector(".videoViewer");
 
     boutonVideo.forEach((btn, index) => {

@@ -188,7 +188,7 @@ session_start();
                         <span class="projetAnnee">2023</span>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
                         <p>Les plans ont été filmés par mes soins avec un drone DJI Mavic Air puis montés sur le logiciel Adobe Premiere Pro.</p>
-                        <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/of8xKUOjzvw" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -202,7 +202,7 @@ session_start();
                         <span class="projetAnnee">2022</span>
                         <p>Au cours de ma licence professionnelle à l'IUT d'Angoulême, j'ai pu réaliser un reportage sur le métier d'opérateur XR. A cette occasion je me suis rendu dans les studios de TSF à Paris avec Thomas Zych, Julie Patron et Benjamin Thouet afin de rencontrer les équipes de l'entreprise MADO XR. <br> Pour ce reportage <strong>j'ai réalisé les effets spéciaux</strong> de l'intoduction avec les logiciels Blender pour la 3D et After Effects pour le compositing. Je me suis également occupé de l'<strong>étalonnage</strong> de la vidéo ansi que des synthés pour lesquels j'ai créé une template d'animation Premiere Pro (.mogrt) sous After Effects.</p>
                         <p>Ce reportage a été récompensé d'un <strong>Clap d'Argent</strong> au concours national "Je Filme Le Métier Qui Me Plaît" en juin 2022.</p>
-                        <a href="https://youtu.be/QEnCnQl_C3Q" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/QEnCnQl_C3Q" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                         <a href="https://parcoursmetiers.tv/video/13143-realite-ou-illusion" class="bouton" target="_blank">Site officiel</a>
                     </div>
                 </div>
@@ -216,7 +216,7 @@ session_start();
                         <h3>Court-métrage "Passé recomposé"</h3>
                         <span class="projetAnnee">2022</span>
                         <p>En mars 2022 j'ai travaillé sur un court-métrage réalisé en 48 heures dans le cadre d'un concours étudiant dans mon université. Sur ce projet, j'ai notamment été <strong>cadreur</strong>, sondier et <strong>photographe de plateau</strong>.</p>
-                        <a href="https://youtu.be/0WIhy1HRjoI" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/0WIhy1HRjoI" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -229,7 +229,7 @@ session_start();
                         <h3>Clip "Corps, Yseult - COVER"</h3>
                         <span class="projetAnnee">2021</span>
                         <p>Sur ce clip réalisé par Benjamin Thouet, j'ai été en charge de l'<strong>étalonnage</strong> de la vidéo et des prises de vues au <strong>drone</strong> sur le tournage. </p>
-                        <a href="https://youtu.be/thFsG2O4Vuc" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/thFsG2O4Vuc" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -265,7 +265,7 @@ session_start();
                         <h3>Reportage "Les Bars de demain"</h3>
                         <span class="projetAnnee">2022</span>
                         <p>Lors de mes études, j'ai été amené à travailler sur un reportage traitant des bars après la pandémie de Covid-19. Sur ce projet, j'ai réalisé le <strong>cadrage</strong> de certains plans ainsi que l'<strong>étalonnage</strong>.</p>
-                        <a href="https://youtu.be/CKjpEEx5yN8" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/CKjpEEx5yN8" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -277,7 +277,7 @@ session_start();
                         <h3>Vidéo explicative sur un drone</h3>
                         <span class="projetAnnee">2020</span>
                         <p>Cette vidéo a été réalisée à 100% par mes soins dans le cadre de mon DUT MMI en 2020 pendant le confinement. L'objectif était de présenter et d'expliquer rapidement le fonctionnement d'un objet dans un format type réseaux sociaux. J'ai donc choisi mon drone comme sujet puis filmé et monté tous les plans nécessaires.</p>
-                        <a href="https://youtu.be/2WThzPxGlsY" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/2WThzPxGlsY" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -289,7 +289,7 @@ session_start();
                         <h3>Court-métrage "Le Péché"</h3>
                         <span class="projetAnnee">2020</span>
                         <p>Court-métrage réalisé en 48h dans le cadre du "48 Hour Film Project" de Nantes en 2020. Sur ce projet, j'ai participé au <strong>montage</strong> ainsi qu'à l'élaboration du décor. J'ai également réalisé des <strong>photos de plateau</strong> pour l'équipe. </p>
-                        <a href="https://youtu.be/NSizfEfcmlQ" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/NSizfEfcmlQ" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
@@ -301,7 +301,7 @@ session_start();
                         <h3>CV vidéo 2020</h3>
                         <span class="projetAnnee">2020</span>
                         <p>Dans le cadre de mon DUT MMI j'ai réalisé un CV au format vidéo afin d'apuyer mes candidatures lors de ma recherche de stage. Ce projet m'a permis d'utiliser Adobe After Effects pour faire l'ensemble du motion-design.</p>
-                        <a href="https://youtu.be/PnZMezw47SI" class="bouton" target="_blank">Voir la vidéo</a>
+                        <a href="https://youtu.be/PnZMezw47SI" class="bouton" target="_blank" youtubePlayer>Voir la vidéo</a>
                     </div>
                 </div>
 
