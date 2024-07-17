@@ -98,7 +98,8 @@ session_start();
                                     <span class="projetAnnee" hidden>2023</span>
                                     <p hidden>En tant que salarié chez Concept Store Photo j'ai réalisé intégralement cette vidéo de présentation du boitier hybride de chez Canon, le EOS R7. </p>
                                     <!-- <span class="bouton btFillInvert enSavoirPlus" target="_blank">En savoir plus</span> -->
-                                    <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a>
+                                    <!-- <a href="https://www.instagram.com/reel/C0zH7d3KB2s" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a> -->
+                                    <a href="https://youtube.com/shorts/QfzT6ghnNVw" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
                                 </div>
                             </div>
                             <div class="projetVertical">
