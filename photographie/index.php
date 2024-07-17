@@ -73,6 +73,7 @@ session_start();
 
                 natsort($dirArray);
                 // $dirArray = array_reverse($dirArray);
+                shuffle($dirArray); // randomize array
                 foreach ($dirArray as $img) {
                     $extension = substr($img, -strlen($ext));
                     if ($extension == $ext) {

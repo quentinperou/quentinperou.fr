@@ -452,10 +452,10 @@ main section:first-child {
   max-width: 33.3333%;
 } */
 
-/* .gallerie::after {
+.gallerie::after {
   content: "";
   flex-grow: 999;
-} */
+}
 
 figcaption::first-letter {
   text-transform: uppercase;
@@ -558,7 +558,7 @@ figcaption::first-letter {
   text-align: justify;
   /* padding: 0 10px 0 0; */
 }
-.projet div:last-child {
+.projet div.projet-texte {
   padding: 30px 0 30px 30px;
 }
 

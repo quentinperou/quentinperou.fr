@@ -72,33 +72,33 @@ session_start();
                         <img src="./images/bigCineLive.webp">
                         <img class="projet-background" src="./images/bigCineLive.webp">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
                         <span class="projetType">Graphisme & Motion Design / 3D / OBS Studio / Développement WEB</span>
                         <span class="projetAnnee">2023</span>
-                        <p>Pour l'émission <i>BigCineLive</i> diffusée sur Twitch créé par Benjamin Thouet et Emmanuel Anthony, j'ai été chargé de créer les overlays de l'émission ainsi que les miniatures. </p>
-                        <p>Pour les écrans de début et de fin de stream, j'ai créé un décor en 3D sur Blender puis exporté des prises de vues vers After Effects afin d'ajouter le motion design comme le texte et la bordure.</p>
+                        <p>Pour l'émission <i>BigCineLive</i> créée par Benjamin Thouet & Emmanuel Anthony et diffusée sur la plateforme Twitch, j'ai été responsable de la production des overlays et des miniatures. </p>
+                        <p>Pour les écrans de début et de fin de stream, j'ai créé un décor en 3D sur Blender puis exporté des prises de vues vers After Effects afin d'ajouter le motion design.</p>
+                        <p>J'ai également configurer OBS Studio afin d'afficher les différentes caméras lors des Live. Les habillages de texte interactif (classement, timer, synthés) ont été développés en HTML/CSS/JS puis implémentés à OBS.</p>
                         <a href="https://youtu.be/bGtx2jMKf9o" class="bouton" target="_blank" youtubePlayer>Le waiting screen</a>
-                        <p>J'ai également travaillé les scènes, c'est-à-dire les différents habillages du stream, sur le logiciel de diffusion OBS Studio.</p>
-                        <p>Les miniatures ont été faites sur Photoshop en assemblant divers éléments ainsi que des photos des chroniqueurs présents sur l'émission en question. </p>
                         <a href="https://youtu.be/qiyNTLT-K7M" class="bouton" target="_blank" youtubePlayer>Un replay sur YouTube</a>
-                        <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a>
+                        <!-- <a href="https://twitch.tv/bigbt_" class="bouton" target="_blank">La chaine Twitch de BigBT</a> -->
                     </div>
                 </div>
 
                 <div class="projet">
                     <div class="projet-image">
-                        <img src="./images/preview-HighlightedChat.webp">
-                        <img class="projet-background" src="./images/preview-HighlightedChat.webp">
+                        <img src="./images/preview-HighlightedChat-v2.webp">
+                        <img class="projet-background" src="./images/preview-HighlightedChat-v2.webp">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Twitch-HighlightedChat</h3>
                         <span class="projetType">Développement WEB</span>
                         <span class="projetAnnee">2021</span>
-                        <p>Sur Twitch, il existe une fonctionnalité appelée les points de chaîne, que l'on accumule au fur et à mesure que l'on regarde une chaîne en live. Et avec ces points de chaîne, on peut récupérer des récompenses, notamment un message mis en avant dans le tchat.</p>
-                        <p>En 2020, alors que je regardais le live du streamer Ponce sur Twitch, je me suis rendu compte que les streamers rataient souvent ses fameux messages et que les viewers les copiait-collait jusqu'à ce que le streamer le vois pour que les points n'aient pas été dépensés pour rien.</p>
-                        <p>J'ai donc développé un petit site qui, une fois relié au tchat de son choix, affichera uniquement les messages en avant. </p>
-                        <p>Afin de mettre à disposition au plus grand nombre de personnes, j'ai choisi de rédiger l'interface en anglais.</p>
+                        <p>Lors des diffusions live sur la plateforme Twitch, les viewers peuvent mettre des messages en avant dans le tchat contre des points de chaîne accumulés lors du visionnage.</p>
+                        <p>Il était alors difficile pour les streamer de voir les messages en avant sans les perdre dans le flux de messages.
+                            J'ai donc décidé de proposer une solution simple à ce problème : un streamer peut relier son tchat à mon site qui affiche alors uniquement les messages en avant.</p>
+                        <p>Aujourd'hui, le streamer Ponce utilise le site au quotidien.</p>
+                        <p>L'outil à été rédigé en anglais afin de profiter à un plus grand nombre d'utilisateurs.</p>
                         <a href="https://github.com/quentinperou/Twitch-HighlightedChat" class="bouton" target="_blank">Lien du GitHub</a>
                         <a href="https://highlightedchat.quentinperou.fr/" class="bouton" target="_blank">Lien du site</a>
                     </div>

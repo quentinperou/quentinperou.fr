@@ -170,7 +170,7 @@ session_start();
                     <div>
                         <img src="./images/showreel2023.webp" alt="">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Mon SHOWREEL 2023</h3>
                         <p>Dans le cadre de mon actuelle recherche d'emploi, j'ai réalisé cette bande-démo afin de vous présenter rapidement mes compétences et réalisations.</p>
                         <p>En cours de remontage…</p>
@@ -183,7 +183,7 @@ session_start();
                         <img src="./images/miniature-video-4-ans-vue-du-ciel.webp" alt="">
                         <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/of8xKUOjzvw?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Vidéo "4 ANNÉES VUES DU CIEL"</h3>
                         <span class="projetAnnee">2023</span>
                         <p>Après plusieurs années à sillonner la France avec mon drone et à accumuler les images, j'ai décidé de faire un montage afin de partager ces beaux paysages ! </p>
@@ -197,7 +197,7 @@ session_start();
                         <img src="./images/operateurXr.webp" alt="">
                         <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QEnCnQl_C3Q?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Reportage "Réalité ou illusion"</h3>
                         <span class="projetAnnee">2022</span>
                         <p>Au cours de ma licence professionnelle à l'IUT d'Angoulême, j'ai pu réaliser un reportage sur le métier d'opérateur XR. A cette occasion je me suis rendu dans les studios de TSF à Paris avec Thomas Zych, Julie Patron et Benjamin Thouet afin de rencontrer les équipes de l'entreprise MADO XR. <br> Pour ce reportage <strong>j'ai réalisé les effets spéciaux</strong> de l'intoduction avec les logiciels Blender pour la 3D et After Effects pour le compositing. Je me suis également occupé de l'<strong>étalonnage</strong> de la vidéo ansi que des synthés pour lesquels j'ai créé une template d'animation Premiere Pro (.mogrt) sous After Effects.</p>
@@ -212,7 +212,7 @@ session_start();
                         <img src="./images/passeRecompose.webp" alt="">
                         <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0WIhy1HRjoI?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Court-métrage "Passé recomposé"</h3>
                         <span class="projetAnnee">2022</span>
                         <p>En mars 2022 j'ai travaillé sur un court-métrage réalisé en 48 heures dans le cadre d'un concours étudiant dans mon université. Sur ce projet, j'ai notamment été <strong>cadreur</strong>, sondier et <strong>photographe de plateau</strong>.</p>
@@ -225,7 +225,7 @@ session_start();
                         <img src="./images/clipBigbtCorps.webp" alt="">
                         <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/thFsG2O4Vuc?rel=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Clip "Corps, Yseult - COVER"</h3>
                         <span class="projetAnnee">2021</span>
                         <p>Sur ce clip réalisé par Benjamin Thouet, j'ai été en charge de l'<strong>étalonnage</strong> de la vidéo et des prises de vues au <strong>drone</strong> sur le tournage. </p>
@@ -238,7 +238,7 @@ session_start();
                         <img src="./images/julie.webp" alt="">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T1gQjSipqpI?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Court-métrage "Julie !"</h3>
                         <p>"Julie !" est un court-métrage au format vertical réalisé dans le cadre du festival Courant 3D d'Angoulême. Sur ce projet, j'ai été Directeur de la photographie. J'ai également participé au <strong>montage</strong> et réalisé l'<strong>étalonnage</strong>. Par ailleurs j'étais <strong>photographe plateau</strong> durant le tournage.</p>
                         <a href="https://youtu.be/T1gQjSipqpI" class="bouton" target="_blank">Voir la vidéo</a>
@@ -250,7 +250,7 @@ session_start();
                         <img src="./images/longWayToGo.webp" alt="">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fjDIPealt2o?showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Court-métrage/clip "Long Way To Go"</h3>
                         <p>Pour cette vidéo réalisée en vertical pour le festival Courant 3D, j'ai été <strong>cadreur</strong> et <strong>photographe plateau</strong>.</p>
                         <a href="https://youtu.be/fjDIPealt2o" class="bouton" target="_blank">Voir la vidéo</a>
@@ -261,7 +261,7 @@ session_start();
                     <div>
                         <img src="./images/barDeDemain.webp" alt="">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Reportage "Les Bars de demain"</h3>
                         <span class="projetAnnee">2022</span>
                         <p>Lors de mes études, j'ai été amené à travailler sur un reportage traitant des bars après la pandémie de Covid-19. Sur ce projet, j'ai réalisé le <strong>cadrage</strong> de certains plans ainsi que l'<strong>étalonnage</strong>.</p>
@@ -273,7 +273,7 @@ session_start();
                     <div>
                         <img src="./images/video-explicative_Mavic-Air.webp" alt="">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Vidéo explicative sur un drone</h3>
                         <span class="projetAnnee">2020</span>
                         <p>Cette vidéo a été réalisée à 100% par mes soins dans le cadre de mon DUT MMI en 2020 pendant le confinement. L'objectif était de présenter et d'expliquer rapidement le fonctionnement d'un objet dans un format type réseaux sociaux. J'ai donc choisi mon drone comme sujet puis filmé et monté tous les plans nécessaires.</p>
@@ -285,7 +285,7 @@ session_start();
                     <div>
                         <img src="./images/lePeche.webp" alt="">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>Court-métrage "Le Péché"</h3>
                         <span class="projetAnnee">2020</span>
                         <p>Court-métrage réalisé en 48h dans le cadre du "48 Hour Film Project" de Nantes en 2020. Sur ce projet, j'ai participé au <strong>montage</strong> ainsi qu'à l'élaboration du décor. J'ai également réalisé des <strong>photos de plateau</strong> pour l'équipe. </p>
@@ -297,7 +297,7 @@ session_start();
                     <div>
                         <img src="./images/CV-vidéo-2020.webp" alt="">
                     </div>
-                    <div>
+                    <div class="projet-texte">
                         <h3>CV vidéo 2020</h3>
                         <span class="projetAnnee">2020</span>
                         <p>Dans le cadre de mon DUT MMI j'ai réalisé un CV au format vidéo afin d'apuyer mes candidatures lors de ma recherche de stage. Ce projet m'a permis d'utiliser Adobe After Effects pour faire l'ensemble du motion-design.</p>
