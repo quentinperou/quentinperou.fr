@@ -85,7 +85,7 @@
     let touchendY = 0
     function checkDirection() {
         // console.log("valeurDiffProjetContainer", (gallerieVerticalContainerWidth - gallerieVerticalItemWidth));
-        if ((Math.abs(touchstartX - touchendX) > 50) && (Math.abs(touchstartY - touchendY) < 150)) {
+        if ((Math.abs(touchstartX - touchendX) > 60) && (Math.abs(touchstartY - touchendY) < 150)) {
             if (touchendX < touchstartX) {
                 // console.log('swiped left!');
                 if (gallerieVerticalIndex < gallerieVerticalItemsLength) {
