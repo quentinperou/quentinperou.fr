@@ -447,6 +447,11 @@ main section:first-child {
   opacity: 1;
 }
 
+/* les 3 derniere images font au minimun un tier de la largeur */
+/* .gallerie figure:nth-last-child(-n + 3) {
+  max-width: 33.3333%;
+} */
+
 /* .gallerie::after {
   content: "";
   flex-grow: 999;
