@@ -4,3 +4,4 @@ User-agent: googlebot
 Disallow: /images/
 Disallow: /photographie/photos/
 Disallow: /video/images/
+Disallow: /dev/images/

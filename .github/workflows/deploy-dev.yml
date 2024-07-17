@@ -1,7 +1,7 @@
-name: 🚀 Deploy website on push
+name: 🚧 Deploy DEV version on push
 on:
   push:
-   branches: main
+   branches: dev
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -13,10 +13,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.cluster029.hosting.ovh.net
-        username: ${{ secrets.OVH_ID }}
-        password: ${{ secrets.OVH_PASSWORD }}
-        server-dir: './www/'
+        server: 185.171.202.140
+        username: github
+        password: ${{ secrets.PASSWORD }}
+        server-dir: './dev.quentinperou.fr/'
         exclude: |
           **/.git*
           **/.git*/**

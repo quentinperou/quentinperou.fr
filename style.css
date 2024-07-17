@@ -12,8 +12,20 @@ html {
 
 :root {
   --largeur_page: 70vw;
+  --hauteur_header: 80px;
   --color-gray-1: #252627;
   --color-gray-1-hover: #3b3b3b;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #525252bd;
+}
+
+::selection {
+  color: white;
+  background: #525252bd;
 }
 
 /*********************************************************/
@@ -87,6 +99,20 @@ a {
   color: white;
 }
 
+.bouton.btFillInvert {
+  background-color: inherit;
+  outline: white solid 2px;
+  outline-offset: -2px;
+  color: white;
+  transition: background-color 150ms ease-in-out;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+.bouton.btFillInvert:hover {
+  background-color: var(--color-gray-1);
+  color: white;
+}
+
 .bouton.btInvert {
   background-color: white;
   color: var(--color-gray-1);
@@ -117,10 +143,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
+  height: var(--hauteur_header);
   width: 100%;
   background-color: white;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   z-index: 5;
   box-shadow: 0px 5px 10px 0px rgba(64, 64, 64, 0.51);
 }
@@ -134,8 +160,10 @@ header {
 
 .websiteLogo .titreEnteteSite {
   font-size: 40px;
-  font-family: "Amatic SC", cursive;
-  /* text-transform: uppercase; */
+  /* font-family: "Amatic SC", cursive; */
+
+  font-family: "Shadows Into Light", cursive;
+  font-size: 35px;
 }
 
 .menuElement {
@@ -189,26 +217,23 @@ header {
 /*                        ACCUEIL                        */
 /*********************************************************/
 #accueil {
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--hauteur_header));
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .fondAcceuil {
-  position: absolute;
-  top: 0;
+  top: var(--hauteur_header);
   left: 0;
   width: 100%;
-  height: 100%;
   background-color: var(--color-gray-1);
-  z-index: 1;
   user-select: none;
   pointer-events: none;
-
   position: fixed;
   z-index: -1;
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--hauteur_header) * 2);
 }
 .fondAcceuil > * {
   object-fit: cover;
@@ -219,32 +244,66 @@ header {
   top: 0;
   left: 0;
 }
+/* .fondAcceuil::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #26262624;
+} */
 
 #accueil div:first-child {
   z-index: 2;
   position: absolute;
-  bottom: 10%;
-  right: 5%;
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  /* padding: 20px 50px; */
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -40%);
+  width: 100%;
 }
 
-#accueil p {
+#accueil p,
+#accueil h1 {
   color: white;
-  text-align: end;
+  text-align: center;
   margin: 20px 0;
-  /* margin: 0; */
   font-size: 2.5rem;
-  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 40px rgba(49, 49, 49, 1);
+  font-family: "Shadows Into Light", cursive;
+  line-height: 100%;
 }
 
 #accueil .titreAccueil {
-  font-size: 7rem;
-  font-family: "Amatic SC", cursive;
+  font-size: 6.5rem;
+  /* font-family: "Amatic SC", cursive; */
+  font-family: "Shadows Into Light", cursive;
+  font-weight: normal;
+  opacity: 0;
+  animation: animTitle 1.3s forwards;
 }
-/* .sousTitreAccueil{
-  text-transform: uppercase;
-} */
+@keyframes animTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sousTitreAccueil {
+  /* text-transform: uppercase; */
+  opacity: 0;
+  animation: fadeInTitle 1.2s forwards 350ms;
+}
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .scrollme {
   animation: scrollol 5s infinite ease-in-out;
@@ -294,221 +353,7 @@ main section {
 }
 
 main section:first-child {
-  padding-top: 95px;
-}
-
-/*********************************************************/
-/*                        PROJETS                        */
-/*********************************************************/
-.contenuSectionProjets {
-  width: 100%;
-}
-.projet figure {
-  width: 50%;
-  margin: 0;
-}
-
-.projet {
-  display: flex;
-  margin: 60px 0;
-}
-.projet:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.projet div {
-  width: 50%;
-  text-align: justify;
-  /* padding: 0 10px 0 0; */
-}
-.projet div:last-child {
-  padding: 30px 0 30px 30px;
-}
-
-/* .projet:nth-child(even) div {
-  padding: 0 0 0 10px;
-} */
-
-.projet:nth-child(even) div:last-child {
-  padding: 30px 30px 30px 0;
-}
-
-.projetAnnee {
-  font-style: italic;
-  font-size: 0.9rem;
-}
-
-.projet iframe {
-  width: 100%;
-  /* height: 100%; */
-  /* min-height: 350px; */
-  border: none;
-  aspect-ratio: 16/9;
-}
-
-.aspect-ratio-16-9 {
-  height: inherit !important;
-  min-height: inherit !important;
-  aspect-ratio: 16/9;
-}
-
-/***************** PROJETS 3D *****************/
-.projet3d {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-}
-
-.projet3d .gallerie {
-  /* flex-wrap: inherit; */
-  margin-top: 0;
-}
-
-.projet3d .gallerie::after {
-  content: inherit;
-}
-
-.projet3d .gallerie video {
-  object-fit: cover;
-  cursor: inherit;
-  width: 100%;
-  height: 100%;
-}
-video:fullscreen {
-  object-fit: contain !important;
-}
-
-.projet3d .gallerie figure {
-  width: 30%;
-}
-
-
-/*********************************************************/
-/*                       GALLERIE                        */
-/*********************************************************/
-.gallerie {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  gap: 20px;
-}
-
-.gallerie figure,
-.gallerie video {
-  height: 350px;
-  position: relative;
-  flex-grow: 1;
-  margin: 0;
-  cursor: pointer;
-}
-
-.gallerie figure figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: opacity 150ms ease-in-out;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  overflow: hidden;
-  /* white-space: nowrap; */
-  text-overflow: ellipsis;
-  /* text-transform: capitalize; */
-  padding: 15px;
-}
-
-.gallerie figure figcaption:hover {
-  opacity: 1;
-}
-
-.gallerie::after {
-  content: "";
-  flex-grow: 999;
-}
-
-figcaption::first-letter {
-  text-transform: uppercase;
-}
-
-.imageViewer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.95);
-  z-index: 100;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  user-select: none;
-  opacity: 0;
-  transition: opacity 100ms ease-in-out;
-}
-.imageViewer.visible {
-  display: flex;
-  animation: fadeIn 150ms ease-in-out forwards;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.imageViewer img {
-  max-width: 80%;
-  max-height: 80%;
-  object-fit: contain;
-  height: max-content;
-}
-.imageViewer figcaption {
-  margin-top: 20px;
-  color: white;
-  max-width: 80%;
-  text-align: center;
-  /* text-transform: capitalize; */
-}
-.imageViewer video {
-  max-width: 80%;
-  max-height: 80%;
-  object-fit: contain;
-  height: max-content;
-}
-
-.close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-  width: 30px;
-}
-
-.gallerie_nav {
-  width: 50px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  user-select: none;
-}
-.nav_back {
-  left: 0;
-  transform: rotate(-90deg);
-}
-.nav_next {
-  right: 0;
-  transform: rotate(90deg);
+  padding-top: calc(var(--hauteur_header) + 15px);
 }
 
 /*********************************************************/
@@ -557,6 +402,358 @@ figcaption::first-letter {
 
 #photoProfil:hover {
   clip-path: circle(100% at 50% 50%);
+}
+
+/*********************************************************/
+/*                       GALLERIE                        */
+/*********************************************************/
+.gallerie {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.gallerie figure,
+.gallerie video {
+  height: 350px;
+  position: relative;
+  flex-grow: 1;
+  margin: 0;
+  cursor: pointer;
+}
+
+.gallerie figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 15px;
+}
+
+.gallerie figure figcaption:hover {
+  opacity: 1;
+}
+
+/* les 3 derniere images font au minimun un tier de la largeur */
+/* .gallerie figure:nth-last-child(-n + 3) {
+  max-width: 33.3333%;
+} */
+
+.gallerie::after {
+  content: "";
+  flex-grow: 999;
+}
+
+figcaption::first-letter {
+  text-transform: uppercase;
+}
+
+.imageViewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+.imageViewer.visible {
+  display: flex;
+  animation: fadeIn 150ms ease-in-out forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.imageViewer img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  height: max-content;
+}
+.imageViewer figcaption {
+  margin-top: 20px;
+  color: white;
+  max-width: 80%;
+  text-align: center;
+}
+.imageViewer video {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  height: max-content;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 30px;
+  pointer-events: all;
+}
+
+.gallerie_nav {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+}
+.nav_back {
+  left: 0;
+  transform: rotate(-90deg);
+}
+.nav_next {
+  right: 0;
+  transform: rotate(90deg);
+}
+
+/*********************************************************/
+/*                        PROJETS                        */
+/*********************************************************/
+.contenuSectionProjets {
+  width: 100%;
+}
+.projet figure {
+  width: 50%;
+  margin: 0;
+}
+
+.projet {
+  display: flex;
+  margin: 60px 0;
+}
+.projet:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.projet div {
+  width: 50%;
+  text-align: justify;
+  /* padding: 0 10px 0 0; */
+}
+.projet div.projet-texte {
+  padding: 30px 0 30px 30px;
+}
+
+/* .projet:nth-child(even) div {
+  padding: 0 0 0 10px;
+} */
+
+.projet:nth-child(even) div:last-child {
+  padding: 30px 30px 30px 0;
+}
+
+.projetAnnee {
+  font-style: italic;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.projetType {
+  font-style: italic;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.projet iframe {
+  width: 100%;
+  border: none;
+  aspect-ratio: 16/9;
+}
+
+.aspect-ratio-16-9 {
+  height: inherit !important;
+  min-height: inherit !important;
+  aspect-ratio: 16/9;
+}
+
+/* ambilight sur les projets*/
+.projet-image {
+  position: relative;
+  overflow: hidden;
+}
+.projet-image img:not(.projet-background) {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.projet-background {
+  filter: blur(60px);
+  transform: scale(3);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/***************** PROJETS 3D *****************/
+.projet3d {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.projet3d .gallerie {
+  margin-top: 0;
+}
+
+.projet3d .gallerie::after {
+  content: inherit;
+}
+
+.projet3d .gallerie video {
+  object-fit: cover;
+  cursor: inherit;
+  width: 100%;
+  height: 100%;
+}
+video:fullscreen {
+  object-fit: contain !important;
+}
+
+.projet3d .gallerie figure {
+  width: 30%;
+}
+
+/********************** VIDEO vertical **********************/
+.contenuSectionProjetsVertical {
+  width: 100%;
+  position: relative;
+}
+
+.gallerieVertical-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.gallerieVertical-item {
+  white-space: nowrap;
+  transition: transform 200ms ease-in-out;
+  font-size: 0;
+}
+
+.projetVertical {
+  display: inline-block;
+  position: relative;
+  width: calc((100% - 5px * 4) / 5);
+  aspect-ratio: 9/16;
+  cursor: pointer;
+}
+
+.projetVertical:not(:last-child) {
+  margin-right: 5px;
+}
+
+.projetVertical img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.projetVertical div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgb(0, 0, 0));
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  white-space: normal;
+  text-overflow: ellipsis;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.projetVertical div:hover {
+  opacity: 1;
+}
+
+.projetVertical .bouton {
+  display: revert-layer;
+}
+
+.contenuSectionProjetsVertical .gallerie_nav {
+  --taille-Bouton: 50px;
+  width: var(--taille-Bouton);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--color-gray-1);
+  border-radius: 100px;
+}
+.contenuSectionProjetsVertical .gallerie_nav:hover {
+  background-color: var(--color-gray-1-hover);
+}
+.contenuSectionProjetsVertical .nav_back {
+  left: calc(var(--taille-Bouton) / 2 * -1);
+  transform: rotate(-90deg) translateX(+50%);
+}
+.contenuSectionProjetsVertical .nav_next {
+  right: calc(var(--taille-Bouton) / 2 * -1);
+  transform: rotate(90deg) translateX(-50%);
+}
+
+.contenuSectionProjetsVertical .videoVerticalViewer {
+  flex-direction: row;
+  color: white;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.98);
+}
+.contenuSectionProjetsVertical .videoVerticalViewer div {
+  width: 50%;
+  padding: 2rem;
+}
+.contenuSectionProjetsVertical .videoVerticalViewer iframe {
+  height: 100%;
+  aspect-ratio: 9/16;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/******* video viewer *******/
+.videoViewer {
+  background-color: rgba(0, 0, 0, 0.98);
+}
+.videoViewer iframe {
+  width: 90%;
+  max-height: 90%;
+  aspect-ratio: 16/9;
 }
 
 /*********************************************************/
@@ -624,14 +821,16 @@ footer p {
 
 @media screen and (max-width: 1250px) {
   :root {
-    --largeur_page: 95vw;
+    --largeur_page: calc(95vw - 30px);
+  }
+  .projetVertical {
+    width: calc((100% - 5px * 3) / 4);
   }
 }
 
 @media screen and (max-width: 850px) {
   .menu {
     justify-content: center;
-    /* align-items: flex-end; */
     align-items: center;
     flex-direction: column;
     width: 100vw;
@@ -642,7 +841,6 @@ footer p {
     transition: left 0.5s ease-in-out;
     background-color: rgba(255, 255, 255, 0.95);
     font-size: 2rem;
-    /* padding: 30px; */
   }
 
   .menu.visible {
@@ -659,7 +857,6 @@ footer p {
 
   #accueil p {
     font-size: 1.5rem;
-    /* text-align: start; */
   }
   #accueil .titreAccueil {
     font-size: 5rem;
@@ -695,9 +892,11 @@ footer p {
     height: auto;
     width: 40% !important;
   }
-  /* .gallerie::after {
-    content: none;
-  } */
+
+  .gallerie figure:nth-child(odd):last-child {
+    flex-grow: 1;
+    max-height: 450px;
+  }
 
   .imageViewer img,
   .imageViewer video {
@@ -724,20 +923,61 @@ footer p {
   .projet3d .gallerie video {
     width: 100%;
   }
+
+  .projetVertical {
+    width: calc((100% - 5px * 2) / 3);
+  }
+  .projetVertical div {
+    opacity: 1;
+  }
+
+  .contenuSectionProjetsVertical .videoVerticalViewer iframe {
+    width: 50%;
+    height: auto;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+  .projetVertical {
+    width: calc((100% - 5px * 1) / 2);
+  }
+
+  .contenuSectionProjetsVertical .videoVerticalViewer {
+    flex-direction: column;
+    padding: 0;
+  }
+  .contenuSectionProjetsVertical .videoVerticalViewer iframe {
+    display: none;
+  }
+  .contenuSectionProjetsVertical .videoVerticalViewer a.bouton {
+    display: inline-block !important;
+  }
+  .contenuSectionProjetsVertical .videoVerticalViewer div {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
   #accueil {
     background-position: 35% 50%;
   }
   .fondAcceuil img {
     object-position: 35% 50%;
   }
+
+  .projetVertical {
+    width: 60%;
+  }
+  .contenuSectionProjetsVertical .gallerie_nav {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 430px) {
   :root {
     --largeur_page: 90vw;
+    --hauteur_header: 60px;
   }
   #a-propos {
     width: 100%;
@@ -748,6 +988,10 @@ footer p {
   }
   h3 {
     font-size: 1.3rem;
+  }
+
+  .projetVertical {
+    width: 70%;
   }
 }
 @media screen and (max-width: 350px) {
