@@ -73,7 +73,7 @@ session_start();
                         <img class="projet-background" src="./images/bigCineLive.webp">
                     </div>
                     <div class="projet-texte">
-                        <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
+                        <h3>Overlay de l'émission BigCineLive sur Twitch</h3>
                         <span class="projetType">Graphisme & Motion Design / 3D / OBS Studio / Développement WEB</span>
                         <span class="projetAnnee">2023</span>
                         <p>Pour l'émission <i>BigCineLive</i> créée par Benjamin Thouet & Emmanuel Anthony et diffusée sur la plateforme Twitch, j'ai été responsable de la production des overlays et des miniatures. </p>

@@ -72,8 +72,7 @@ session_start();
         </a>
         <div class="fondAcceuil">
             <!-- <img src="images/header-accueil.jpg" alt=""> -->
-            <!-- <video id="videoH" preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video> -->
-            <video id="videoH" preload="none" muted loop src="home-website.webm" type="video/webm"></video>
+            <video id="videoH" preload="none" muted loop src="home-website.webm" type="video/webm" disablepictureinpicture="true"></video>
         </div>
         <script src="mobileAndTabletCheck.js"></script>
         <script>
