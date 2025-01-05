@@ -7,10 +7,10 @@ session_start();
 
 <head>
     <meta charset="UTF-8" />
-    <title>Quentin Pérou | DEV</title>
+    <title>Quentin Pérou | Projets</title>
     <meta name="description" content="Portfolio de Quentin Pérou, photographe et vidéaste." />
     <meta name="author" content="Quentin Pérou" />
-    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel dev">
+    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel dev photographe videaste">
     <meta name="language" content="FR">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

@@ -10,7 +10,7 @@ session_start();
     <title>Quentin Pérou | Vidéo</title>
     <meta name="description" content="Portfolio de Quentin Pérou, photographe et vidéaste." />
     <meta name="author" content="Quentin Pérou" />
-    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel">
+    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel videaste photographe">
     <meta name="language" content="FR">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -71,12 +71,30 @@ session_start();
                         <div class="gallerieVertical-item">
 
                             <div class="projetVertical">
-                                <img src="./images/video-Bienvenue-concept-Store-Photo.webp" alt="">
+                                <img src="./images/video-fuji-gfx100II.webp" alt="">
+                                <div>
+                                    <h3>Présentation produit : Fujifilm GFX100II</h3>
+                                    <span class="projetAnnee" hidden>2024</span>
+                                    <p hidden></p>
+                                    <a href="https://youtube.com/shorts/UhnSbY5a2Zo" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
+                                </div>
+                            </div>
+                            <!-- <div class="projetVertical">
+                                <img src="./images/video-nikon-z8.webp" alt="">
+                                <div>
+                                    <h3>Présentation produit : Nikon Z8</h3>
+                                    <span class="projetAnnee" hidden>2023</span>
+                                    <p hidden></p>
+                                    <a href="https://youtube.com/shorts/bOo7NpoF_gc" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
+                                </div>
+                            </div> -->
+                            <div class="projetVertical">
+                                <img src="./images/video-Bienvenue-concept-Store-Photo2.webp" alt="">
                                 <div>
                                     <h3>Vidéo de présentation du magasin Concept Store Photo Nantes</h3>
                                     <span class="projetAnnee" hidden>2023</span>
                                     <p hidden></p>
-                                    <a href="https://youtube.com/shorts/xuhSALlj_Xg" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
+                                    <a href="https://youtube.com/shorts/lYdqjxQmYpg" class="bouton btInvert" target="_blank" hidden>Voir sur YouTube</a>
                                     <a href="https://www.instagram.com/reel/C524S1rqBjv/" class="bouton btInvert" target="_blank" hidden>Voir sur Instagram</a>
                                 </div>
                             </div>

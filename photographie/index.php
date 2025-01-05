@@ -10,7 +10,7 @@ session_start();
     <title>Quentin Pérou | Photographie</title>
     <meta name="description" content="Portfolio de Quentin Pérou, photographe et vidéaste." />
     <meta name="author" content="Quentin Pérou" />
-    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel">
+    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel photographe videaste">
     <meta name="language" content="FR">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
