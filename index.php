@@ -72,8 +72,7 @@ session_start();
         </a>
         <div class="fondAcceuil">
             <!-- <img src="images/header-accueil.jpg" alt=""> -->
-            <!-- <video id="videoH" preload="none" muted loop src="https://quentinperou.dyjix.fr/showreel-home-website.webm" type="video/webm"></video> -->
-            <video id="videoH" preload="none" muted loop src="home-website.webm" type="video/webm"></video>
+            <video id="videoH" preload="none" muted loop src="home-website.webm" type="video/webm" disablepictureinpicture="true"></video>
         </div>
         <script src="mobileAndTabletCheck.js"></script>
         <script>
@@ -143,7 +142,7 @@ session_start();
                 </div>
                 <div>
                     <h3>Quentin Pérou</h3>
-                    <p><strong>Passionné d'audiovisuel</strong> depuis de nombreuses années, je travaille depuis avril 2023 dans les magasins Concept Store Photo en tant que vendeur et animateur commercial. Durant mon temps libre, je <strong>crée du contenu</strong> en direct sur la plateforme Twitch en configurant et utilisant le logiciel de diffusion <i>OBS Studio</i>.</p>
+                    <p><strong>Passionné d'audiovisuel</strong> depuis de nombreuses années, je travaille depuis avril 2023 dans les magasins Concept Store Photo en tant que vendeur et animateur commercial. Durant mon temps libre, je <strong>crée du contenu</strong> sur Twitch en utilisant le logiciel de diffusion <i>OBS Studio</i>.</p>
                     <p>Mes compétences sont diverses. Grâce a un DUT Métiers du Multimédia et de l'Internet (MMI) puis une Licence Professionnelle <strong>Techniques du Son et de l'Image</strong> (TSI), j'ai acquis une <strong>autonomie</strong> sur de nombreux logiciels tels que les logiciels de la suite Adobe, <i>Photoshop</i> et <i>Lightroom</i> pour la gestion et retouche de photographies ; <i>Premiere Pro</i> ou encore <i>After Effects</i> pour le montage et le motion design.</p>
                     <p>De plus, lors de mes expériences en tant que <strong>photographe</strong> sur plusieurs évènements étudiants et de <strong>Community Manager</strong> au sein d’un camping du groupe Capfun, j'ai approfondi mes acquis sur la <strong>prise de vue et la retouche d'images</strong>. J'ai également pu affirmer mon style de photo et développer mes connaissances en régie son et lumière.</p>
                     <p>Aujourd'hui, j'aimerais approfondir mes compétences en réalisation et <strong>je recherche un poste de cadreur/monteur ou de réalisateur live</strong>.</p>

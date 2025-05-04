@@ -7,10 +7,10 @@ session_start();
 
 <head>
     <meta charset="UTF-8" />
-    <title>Quentin Pérou | DEV</title>
+    <title>Quentin Pérou | Projets</title>
     <meta name="description" content="Portfolio de Quentin Pérou, photographe et vidéaste." />
     <meta name="author" content="Quentin Pérou" />
-    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel dev">
+    <meta name="keywords" content="quentin perou quentinperou portfolio mmi laval tsi angouleme audiovisuel dev photographe videaste">
     <meta name="language" content="FR">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -73,7 +73,7 @@ session_start();
                         <img class="projet-background" src="./images/bigCineLive.webp">
                     </div>
                     <div class="projet-texte">
-                        <h3>Overlay de l'émission BigCineLive de BigBT sur Twitch</h3>
+                        <h3>Overlay de l'émission BigCineLive sur Twitch</h3>
                         <span class="projetType">Graphisme & Motion Design / 3D / OBS Studio / Développement WEB</span>
                         <span class="projetAnnee">2023</span>
                         <p>Pour l'émission <i>BigCineLive</i> créée par Benjamin Thouet & Emmanuel Anthony et diffusée sur la plateforme Twitch, j'ai été responsable de la production des overlays et des miniatures. </p>
